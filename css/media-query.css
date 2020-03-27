@@ -39,6 +39,16 @@
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .form-header {
+    flex-direction: column;
+  }
+
+  .form-header input[type=submit] {
+    margin: 10px 0 30px 0;
+  }
+}
+
 @media only screen and (max-width: 420px) {
   .list-display-none {
     display: none;
