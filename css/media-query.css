@@ -1,0 +1,50 @@
+@media only screen and (max-width: 940px) {
+  .item-user {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 822px) {
+  .item-postad {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav,
+  .nav-logo {
+    height: 50px;
+  }
+
+  .nav-list {
+    font-size: 12px;
+  }
+
+  .nav01-display-none {
+    display: none;
+  }
+
+  .nav02-display-none {
+    height: 35px;
+    margin: auto;
+    display: flex;
+  }
+
+  .header-list01 {
+    margin-right: 0;
+  }
+
+  .menu-item {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .list-display-none {
+    display: none;
+  }
+
+  .nav-icon {
+    font-size: 15px;
+  }
+}
