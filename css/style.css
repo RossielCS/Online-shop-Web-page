@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Raleway-Light";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Raleway-Light.ttf");
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Raleway-ExtraBold";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../fonts/Raleway-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLT-LightCond";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/HelveticaNeueLT-LightCond.otf");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLT-MediumCond";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/HelveticaNeueLT-MediumCond.otf");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLT-BoldCond";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/HelveticaNeueLT-BoldCond.otf");
+}
+
+.color00 {
+  color: white;
+}
+
+.bg-color00 {
+  background-color: white;
+}
+
+.color01 {
+  color: #d35266;
+}
+
+.bg-color01 {
+  background-color: #d35266;
+}
+
+.color02 {
+  color: #8888;
+}
+
+.bg-color02 {
+  background-color: #8888;
+}
+
+.color03 {
+  color: #383838;
+}
+
+.bg-color03 {
+  background-color: #383838;
+}
+
+/* HEADER */
+
+nav {
+  height: 60px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  margin: 0;
+  padding-right: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-list li {
+  padding: 0 10px 0 10px;
+}
+
+.fa-user-circle {
+  font-size: 40px;
+}
+
+
+/* HEADER */
