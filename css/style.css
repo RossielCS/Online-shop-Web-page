@@ -201,7 +201,28 @@ main {
 }
 
 .sales-carousel {
+  position: relative;
   height: 300px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.carousel-prev-next {
+  position: absolute;
+  top: 44%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #8888;
+  border-radius: 20px 20px;
+}
+
+#c-prev {
+  left: 4%;
+}
+
+#c-next {
+  right: 4%;
 }
 
 .carousel-product {
