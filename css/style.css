@@ -180,6 +180,7 @@ nav {
   height: 50px;
   padding: 0 15px;
   flex-grow: 2;
+  border: none;
   border: 1px solid #d35266;
 }
 
@@ -199,11 +200,43 @@ main {
   background-color: aqua;
 }
 
-.ads {
+.sales-carousel {
   height: 300px;
-  background-color: chocolate;
 }
 
+.carousel-product {
+  max-width: 900px;
+  height: 300px;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  background-color: yellowgreen;
+}
+
+.carousel-product img {
+  height: 100%;
+}
+
+.carousel-product-info {
+  padding: 10px 0 20px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: wheat;
+}
+
+.button-space {
+  font-size: 0;
+}
+
+.carousel-buttons {
+  height: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 0;
+  font-size: 16px;
+  border: none;
+}
 /* MAIN */
 
 /* FOOTER */
