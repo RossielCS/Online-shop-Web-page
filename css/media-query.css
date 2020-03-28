@@ -39,7 +39,11 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 736px) {
+  .search-bar {
+    height: 450px;
+  }
+
   .form-header {
     flex-direction: column;
   }
@@ -47,6 +51,10 @@
   .form-header input[type=submit] {
     margin: 10px 0 30px 0;
   }
+}
+
+@media only screen and (max-width: ) {
+  
 }
 
 @media only screen and (max-width: 420px) {
