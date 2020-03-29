@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family: "Raleway-Regular";
+  font-family: "Raleway-Regular", sans-serif;
   font-weight: 400;
   font-style: normal;
   src: url("../fonts/Raleway-Regular.ttf");
@@ -68,11 +68,11 @@ body {
 }
 
 .color02 {
-  color: #8888;
+  color: #888;
 }
 
 .bg-color02 {
-  background-color: #8888;
+  background-color: #888;
 }
 
 .color03 {
@@ -220,7 +220,6 @@ main {
   max-width: 1100px;
   margin: auto;
   font-family: "HelveticaNeueLT-LightCond", sans-serif;
-  border-bottom: 1px solid rgba(136, 136, 136, 0.3);
 }
 
 .c-inner-hotads {
@@ -294,7 +293,7 @@ main {
 .price-hotads {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
-  border-right: 1px solid #38383856;
+  border-right: 1px solid #38383880;
 }
 
 .purchase-hotads {
@@ -310,7 +309,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #8888;
+  border: 1px solid rgba(136, 136, 136, 0.3);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.7);
 }
@@ -327,19 +326,28 @@ main {
 
 /* PART 1 */
 
+.section-all {
+  grid-column: 1 / -1;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1100px) 1fr;
+  grid-template-rows: auto;
+  border-top: 1px solid rgba(136, 136, 136, 0.3);
+  background-color: #ffff;
+  background-image: url("../img/45-degree-fabric-light.png");
+}
+
 .part2 {
   position: relative;
+  grid-column: 2 / 3;
   margin: auto;
   padding-bottom: 15px;
-  grid-column: 2 / 3;
-  background-color: #ffffff;
-  background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
 }
 
 .title {
-  margin: 30px 0 15px 0;
+  margin: 30px 0 10px 0;
   display: flex;
-  border-bottom: 1px solid #8888;
+  border-bottom: 1px solid rgba(136, 136, 136, 0.3);
 }
 
 .title img {
@@ -350,6 +358,10 @@ main {
 .title h4 {
   padding-left: 15px;
   font-size: 18px;
+}
+
+.c-inner-part2 {
+  overflow-x: hidden;
 }
 
 /*.c-inner-part2::after {
@@ -371,11 +383,11 @@ main {
 .product-part2 {
   max-width: 250px;
   padding: 0;
-  margin: 0 12px;
+  margin: 5px 12px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #8888;
-  box-shadow: 0 1px 7px #38383885;
+  border: 1px solid rgba(136, 136, 136, 0.5);
+  box-shadow: 0 1px 3px rgba(136, 136, 136, 0.5);
 }
 
 .product-img-part2 {
@@ -405,7 +417,12 @@ main {
   line-height: 22px;
   font-size: 11px;
   font-weight: bold;
-  border: 1px solid #8888;
+  border: 1px solid rgba(136, 136, 136, 0.5);
+}
+
+.product-more-details a:hover {
+  color: #d35266;
+  background-color: #383838;
 }
 
 .c-buttons-part2 {
@@ -422,8 +439,81 @@ main {
 /* FOOTER */
 
 footer {
-  height: 100px;
-  background-color: brown;
+  height: 250px;
+  padding: 20px 0;
+  font-family: "Raleway-Regular", sans-serif;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgba(136, 136, 136, 0.3);
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer01 {
+  display: flex;
+}
+
+.footer01 > * {
+  margin: 0 40px;
+  font-size: 13px;
+}
+
+.footer01 ul {
+  padding-right: 50px;
+}
+
+.business-info-footer {
+  text-align: justify;
+}
+
+.categories-title-footer,
+.navigation-title-footer {
+  border-bottom: 1px solid #d35266;
+}
+
+.categories-list-box {
+  flex-shrink: 1;
+  display: flex;
+}
+
+.options-footer {
+  margin: auto 40px;
+}
+
+.op-titlebtn-footer {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.op-titlebtn-footer button {
+  padding: 6px 12px;
+  margin-left: 15px;
+  white-space: nowrap;
+  border: none;
+  border: 1px solid rgba(136, 136, 136, 0.5);
+}
+
+.footer02 {
+  border-top: 1px solid rgba(136, 136, 136, 0.3);
+}
+
+.items-footer02 {
+  margin: 20px 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+}
+
+.social-media-footer02 {
+  display: flex;
+}
+
+.social-media-footer02 li {
+  margin-left: 20px;
 }
 
 /* FOOTER */
