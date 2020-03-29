@@ -204,7 +204,6 @@ main {
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1100px) 1fr;
   grid-template-rows: auto;
-  background-color: aqua;
 }
 
 /* MAIN */
@@ -214,7 +213,6 @@ main {
 .section-hotads {
   grid-column: 1 / -1;
   padding: 0 15px;
-  background-color: yellow;
 }
 
 .sales-hotads {
@@ -222,6 +220,7 @@ main {
   max-width: 1100px;
   margin: auto;
   font-family: "HelveticaNeueLT-LightCond", sans-serif;
+  border-bottom: 1px solid rgba(136, 136, 136, 0.3);
 }
 
 .c-inner-hotads {
@@ -305,7 +304,7 @@ main {
 
 .prev-next-hotads {
   position: absolute;
-  top: 44%;
+  top: 50%;
   width: 40px;
   height: 40px;
   display: flex;
@@ -329,23 +328,44 @@ main {
 /* PART 1 */
 
 .part2 {
+  position: relative;
   margin: auto;
-  grid-column: 2 / -3;
-  background-color: yellowgreen;
+  padding-bottom: 15px;
+  grid-column: 2 / 3;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
 }
 
 .title {
   margin: 30px 0 15px 0;
+  display: flex;
   border-bottom: 1px solid #8888;
 }
 
-.title h4 {
-  padding-left: 10px;
-  font-size: 20px;
+.title img {
+  padding-left: 5px;
+  height: 100%;
 }
 
+.title h4 {
+  padding-left: 15px;
+  font-size: 18px;
+}
+
+/*.c-inner-part2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(255, 255, 255) 1%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0) 95%, rgba(255, 255, 255) 99%);
+}*/
+
 .row-part2 {
+  padding: 0 15px 0 15px;
   flex-wrap: nowrap;
+  overflow-x: hidden;
 }
 
 .product-part2 {
@@ -355,6 +375,7 @@ main {
   display: flex;
   flex-direction: column;
   border: 1px solid #8888;
+  box-shadow: 0 1px 7px #38383885;
 }
 
 .product-img-part2 {
@@ -364,6 +385,12 @@ main {
 .product-info-part2 {
   padding: 0 15px 10px 15px;
   font-size: 14px;
+}
+
+.product-info-part2 h5 {
+  padding-top: 15px;
+  margin-bottom: 3px;
+  font-size: 17px;
 }
 
 .product-more-details {
@@ -379,6 +406,15 @@ main {
   font-size: 11px;
   font-weight: bold;
   border: 1px solid #8888;
+}
+
+.c-buttons-part2 {
+  position: absolute;
+  top: 55%;
+}
+
+#c-btn-right-part2 {
+  right: 0;
 }
 
 /* PART 1 */
