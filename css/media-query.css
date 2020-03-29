@@ -51,6 +51,32 @@
   .form-header input[type=submit] {
     margin: 10px 0 30px 0;
   }
+
+  .product-hotads {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hotads-img-box,
+  .product-info-hotads {
+    width: 100%;
+  }
+
+  .product-info-hotads {
+    padding: 20px 0 0 0;
+    text-align: center;
+  }
+
+  .buttons-hotads {
+    height: 30px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 13px;
+  }
+
+  .display-none-hotads {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: ) {
@@ -64,5 +90,9 @@
 
   .nav-icon {
     font-size: 15px;
+  }
+
+  .hotads-img-box {
+    height: 200px;
   }
 }

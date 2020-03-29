@@ -27,14 +27,14 @@
 }
 
 @font-face {
-  font-family: "HelveticaNeueLT-LightCond";
+  font-family: "HelveticaNeueLT-LightCond", sans-serif;
   font-weight: 300;
   font-style: normal;
   src: url("../fonts/HelveticaNeueLT-LightCond.otf");
 }
 
 @font-face {
-  font-family: "HelveticaNeueLT-MediumCond";
+  font-family: "HelveticaNeueLT-MediumCond", sans-serif;
   font-weight: 500;
   font-style: normal;
   src: url("../fonts/HelveticaNeueLT-MediumCond.otf");
@@ -201,31 +201,109 @@ nav {
 
 main {
   margin: auto;
-  padding: 0 20px;
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1100px) 1fr;
   grid-template-rows: auto;
   background-color: aqua;
 }
 
-.section-hot-ads {
-  grid-column: 2 / 3;
+/* MAIN */
+
+/* HOT ADS */
+
+.section-hotads {
+  grid-column: 1 / -1;
+  padding: 0 15px;
   background-color: yellow;
 }
 
-.sales-carousel {
+.sales-hotads {
   position: relative;
-  height: 300px;
   max-width: 1100px;
   margin: auto;
+  font-family: "HelveticaNeueLT-LightCond", sans-serif;
 }
 
-.carousel-item {
-  padding: 0 55px;
-  background-color: violet;
+.c-inner-hotads {
+  padding: 20px;
 }
 
-.carousel-prev-next {
+.c-inner-hotads h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.c-item-hotads {
+  padding: 0 40px;
+}
+
+.product-hotads {
+  max-width: 900px;
+  min-height: 300px;
+  margin: auto;
+  display: flex;
+  align-content: center;
+}
+
+.hotads-img-box {
+  margin: auto;
+  height: 300px;
+  width: 40%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#hotads01 {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/61VxTuHfcxL._AC_UY395_.jpg");
+}
+
+#hotads02 {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/91EucPvh5ZL._AC_UY395_.jpg");
+}
+
+.product-info-hotads {
+  padding: 15px 0 15px 25px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-info-hotads h3 {
+  font-family: "HelveticaNeueLT-MediumCond", sans-serif;
+  font-size: 20px;
+}
+
+.product-info-hotads p {
+  font-size: 14px;
+}
+
+.button-space-hotads {
+  font-size: 0;
+}
+
+.buttons-hotads {
+  height: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 0;
+  font-size: 16px;
+  border: none;
+}
+
+.price-hotads {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-right: 1px solid #38383856;
+}
+
+.purchase-hotads {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.prev-next-hotads {
   position: absolute;
   top: 44%;
   width: 40px;
@@ -235,63 +313,75 @@ main {
   align-items: center;
   border: 1px solid #8888;
   border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 #c-prev {
-  left: 2%;
+  left: 0;
 }
 
 #c-next {
-  right: 2%;
+  right: 0;
 }
 
-.carousel-product {
-  max-width: 900px;
-  height: 300px;
-  padding: 20px;
+/* HOT ADS */
+
+/* PART 1 */
+
+.part2 {
   margin: auto;
-  display: flex;
+  grid-column: 2 / -3;
   background-color: yellowgreen;
 }
 
-.carousel-product img {
-  height: 100%;
+.title {
+  margin: 30px 0 15px 0;
+  border-bottom: 1px solid #8888;
 }
 
-.carousel-product-info {
-  padding: 10px 0 20px 25px;
-  width: auto;
+.title h4 {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.row-part2 {
+  flex-wrap: nowrap;
+}
+
+.product-part2 {
+  max-width: 250px;
+  padding: 0;
+  margin: 0 12px;
   display: flex;
   flex-direction: column;
+  border: 1px solid #8888;
+}
+
+.product-img-part2 {
+  width: 100%;
+}
+
+.product-info-part2 {
+  padding: 0 15px 10px 15px;
+  font-size: 14px;
+}
+
+.product-more-details {
+  display: flex;
   justify-content: space-between;
-  background-color: wheat;
 }
 
-.button-space {
-  font-size: 0;
+.product-more-details a {
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  line-height: 22px;
+  font-size: 11px;
+  font-weight: bold;
+  border: 1px solid #8888;
 }
 
-.carousel-buttons {
-  height: 40px;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin: 0;
-  font-size: 16px;
-  border: none;
-}
-
-.carousel-price {
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-  border-right: 1px solid #38383856;
-}
-
-.carousel-purchase {
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
-
-/* MAIN */
+/* PART 1 */
 
 /* FOOTER */
 

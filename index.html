@@ -136,28 +136,30 @@
       </div>
     </header>
   
-    <main>
-      
-        <section class="section-hot-ads">
-        <div id="sales" class="carousel slide bg-color00 sales-carousel" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="carousel-product">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/81aJ-R4E6gL._SY500_.jpg" alt="Super Smash Bros. Ultimate">
-                <div class="carousel-product-info">
-                  <h3>Super Smash Bros. Ultimate</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    <main>     
+      <section class="section-hotads">
+        <div id="sales" class="carousel slide bg-color00 sales-hotads" data-ride="carousel">
+          <div class="carousel-inner c-inner-hotads">
+            <h2 class="color02">HOT ADS</h2>
+            <div class="carousel-item active c-item-hotads">
+              <div class="product-hotads">
+                
+                <div class="hotads-img-box" id="hotads01">                  
+                </div>
+                <div class="product-info-hotads">
+                  <h3 class="color01">MVCOLEDY Bracelet</h3>
+                  <p class="display-none-hotads">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Eget velit aliquet sagittis id consectetur.</p>
-                  <p><span>By:</span> <span>John Doe</span> <br>
+                  <p class="display-none-hotads"><span>By:</span> <span>MVCOLEDY</span> <br>
                     <span>Location:</span> <span>San Francisco, Ca. United States.</span></p>
                   
-                  <div class="button-space">
-                    <button class="carousel-buttons bg-color01 color00 carousel-price" type="button">
+                  <div class="button-space-hotads">
+                    <button class="buttons-hotads bg-color01 color00 price-hotads" type="button">
                       $450
                     </button>
     
-                    <button class="carousel-buttons bg-color01 color00 carousel-purchase" type="button">
+                    <button class="buttons-hotads bg-color01 color00 purchase-hotads" type="button">
                       <i class="fas fa-shopping-cart nav-icon"></i>
                       Purchase details
                     </button>
@@ -165,78 +167,239 @@
                 </div>
               </div>                          
             </div>
-  
-            <div class="carousel-item">
-              <div class="carousel-product">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/719SCN8iaWL._SY445_.jpg" alt="Roll over image to zoom in
-                          Luigi's Mansion 3">
-                <div class="carousel-product-info">
-                  <h3>Super Smash Bros. Ultimate</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            
+            <div class="carousel-item c-item-hotads">
+              <div class="product-hotads">
+                <div class="hotads-img-box" id="hotads02">                  
+                </div>
+                <div class="product-info-hotads">
+                  <h3 class="color01">MVCOLEDY Bracelet</h3>
+                  <p class="display-none-hotads">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Eget velit aliquet sagittis id consectetur.</p>
-                    <p><span>By:</span> <span>John Doe</span> <br>
-                      <span>Location:</span> <span>San Francisco, Ca. United States.</span></p>                  
-  
-                  <div class="button-space">
-                    <button class="carousel-buttons bg-color01 color00 carousel-price" type="button">
+                  <p class="display-none-hotads"><span>By:</span> <span>MVCOLEDY</span> <br>
+                    <span>Location:</span> <span>San Francisco, Ca. United States.</span></p>
+                  
+                  <div class="button-space-hotads">
+                    <button class="buttons-hotads bg-color01 color00 price-hotads" type="button">
                       $450
                     </button>
     
-                    <button class="carousel-buttons bg-color01 color00 carousel-purchase" type="button">
+                    <button class="buttons-hotads bg-color01 color00 purchase-hotads" type="button">
                       <i class="fas fa-shopping-cart nav-icon"></i>
                       Purchase details
                     </button>
-                  </div>  
+                  </div>                
                 </div>
-              </div>
-            </div>
-  
-            <div class="carousel-item">
-              <div class="carousel-product">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/91KQmjDxj-L._SY445_.jpg" alt="Mario Kart 8 Deluxe">
-                <div class="carousel-product-info">
-                  <h3>Super Smash Bros. Ultimate</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Eget velit aliquet sagittis id consectetur.</p>
-                    <p><span>By:</span> <span>John Doe</span> <br>
-                      <span>Location:</span> <span>San Francisco, Ca. United States.</span></p>                  
-  
-                  <div class="button-space">
-                    <button class="carousel-buttons bg-color01 color00 carousel-price" type="button">
-                      $450
-                    </button>
-    
-                    <button class="carousel-buttons bg-color01 color00 carousel-purchase" type="button">
-                      <i class="fas fa-shopping-cart nav-icon"></i>
-                      Purchase details
-                    </button>
-                  </div>  
-                </div>
-              </div>          
+              </div>                          
             </div>
           </div>
           
           <!-- Left and right controls -->
-          <a class="color01 carousel-prev-next" id="c-prev" href="#sales" data-slide="prev">
+          <a class="color01 prev-next-hotads" id="c-prev" href="#sales" data-slide="prev">
             <!--<span class="carousel-control-prev-icon"></span>-->
             <i class="fas fa-chevron-left"></i>
           </a>
-          <a class="color01 carousel-prev-next" id="c-next" href="#sales" data-slide="next">
+          <a class="color01 prev-next-hotads" id="c-next" href="#sales" data-slide="next">
             <!--<span class="carousel-control-next-icon"></span>-->
             <i class="fas fa-chevron-right"></i>
           </a>
         </div>
       </section>
-      
+        
+      <section class="part2">
+        <div class="title">
+          <h4 class="color03">Rings</h4>
+        </div>
+
+        <div id="main-part2" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row row-part2">
+                <div class="col bg-color00 product-part2">
+                  <img class="product-img-part2" src="https://images-na.ssl-images-amazon.com/images/I/61l3zhyeE4L._AC_UX500_.jpg" 
+                  alt="">
+                  <div class="product-info-part2">
+                    <a href="#">
+                      <h5 class="color03">Earrings Blue Gold</h5>
+                    </a>
+                    <span class="color01">Used</span>
+                    <p class="color02">From: <span class="color03">San Francisco, US</span></p>
+                    <div class="product-more-details">
+                      <a class="color02" href="">
+                        <i class="fas fa-plus"></i>
+                      </a>
+                      <span>450$</span>
+                    </div>
+                  </div>                  
+                </div>
+                
+                <div class="col bg-color00 product-part2">
+                  <img class="product-img-part2" src="https://images-na.ssl-images-amazon.com/images/I/61l3zhyeE4L._AC_UX500_.jpg" 
+                  alt="">
+                  <div class="product-info-part2">
+                    <a href="#">
+                      <h5>Earrings Blue Gold</h5>
+                    </a>
+                    <span>Used</span>
+                    <p>From: <span>San Francisco, US</span></p>
+                  </div>
+                  <div class="product-more-details">
+                    <a href="">+</a>
+                    <span>450$</span>
+                  </div>
+                </div>
+
+                <div class="col bg-color00 product-part2">
+                  <img class="product-img-part2" src="https://images-na.ssl-images-amazon.com/images/I/61l3zhyeE4L._AC_UX500_.jpg" 
+                  alt="">
+                  <div class="product-info-part2">
+                    <a href="#">
+                      <h5>Earrings Blue Gold</h5>
+                    </a>
+                    <span>Used</span>
+                    <p>From: <span>San Francisco, US</span></p>
+                  </div>
+                  <div class="product-more-details">
+                    <a href="">+</a>
+                    <span>450$</span>
+                  </div>
+                </div>
+
+                <div class="col bg-color00 product-part2">
+                  <img class="product-img-part2" src="https://images-na.ssl-images-amazon.com/images/I/61l3zhyeE4L._AC_UX500_.jpg" 
+                  alt="">
+                  <div class="product-info-part2">
+                    <a href="#">
+                      <h5>Earrings Blue Gold</h5>
+                    </a>
+                    <span>Used</span>
+                    <p>From: <span>San Francisco, US</span></p>
+                  </div>
+                  <div class="product-more-details">
+                    <a href="">+</a>
+                    <span>450$</span>
+                  </div>
+                </div>
+
+                <div class="col bg-color00 product-part2">
+                  <img class="product-img-part2" src="https://images-na.ssl-images-amazon.com/images/I/61l3zhyeE4L._AC_UX500_.jpg" 
+                  alt="">
+                  <div class="product-info-part2">
+                    <a href="#">
+                      <h5>Earrings Blue Gold</h5>
+                    </a>
+                    <span>Used</span>
+                    <p>From: <span>San Francisco, US</span></p>
+                  </div>
+                  <div class="product-more-details">
+                    <a href="">+</a>
+                    <span>450$</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row row-part2">
+                <div class="col bg-color00 product-part2">
+                  <img class="product-img-part2" src="https://images-na.ssl-images-amazon.com/images/I/61tXIpILF8L._AC_UY395_.jpg" 
+                  alt="">
+                  <div class="product-info-part2">
+                    <a href="#">
+                      <h5>Earrings Blue Gold</h5>
+                    </a>
+                    <span>Used</span>
+                    <p>From: <span>San Francisco, US</span></p>
+                  </div>
+                  <div class="product-more-details">
+                    <a href="">+</a>
+                    <span>450$</span>
+                  </div>
+                </div>
+                
+                <div class="col bg-color00 product-part2">
+                  <img class="product-img-part2" src="https://images-na.ssl-images-amazon.com/images/I/61tXIpILF8L._AC_UY395_.jpg" 
+                  alt="">
+                  <div class="product-info-part2">
+                    <a href="#">
+                      <h5>Earrings Blue Gold</h5>
+                    </a>
+                    <span>Used</span>
+                    <p>From: <span>San Francisco, US</span></p>
+                  </div>
+                  <div class="product-more-details">
+                    <a href="">+</a>
+                    <span>450$</span>
+                  </div>
+                </div>
+
+                <div class="col bg-color00 product-part2">
+                  <img class="product-img-part2" src="https://images-na.ssl-images-amazon.com/images/I/61tXIpILF8L._AC_UY395_.jpg" 
+                  alt="">
+                  <div class="product-info-part2">
+                    <a href="#">
+                      <h5>Earrings Blue Gold</h5>
+                    </a>
+                    <span>Used</span>
+                    <p>From: <span>San Francisco, US</span></p>
+                  </div>
+                  <div class="product-more-details">
+                    <a href="">+</a>
+                    <span>450$</span>
+                  </div>
+                </div>
+
+                <div class="col bg-color00 product-part2">
+                  <img class="product-img-part2" src="https://images-na.ssl-images-amazon.com/images/I/61tXIpILF8L._AC_UY395_.jpg" 
+                  alt="">
+                  <div class="product-info-part2">
+                    <a href="#">
+                      <h5>Earrings Blue Gold</h5>
+                    </a>
+                    <span>Used</span>
+                    <p>From: <span>San Francisco, US</span></p>
+                  </div>
+                  <div class="product-more-details">
+                    <a href="">+</a>
+                    <span>450$</span>
+                  </div>
+                </div>
+
+                <div class="col bg-color00 product-part2">
+                  <img class="product-img-part2" src="https://images-na.ssl-images-amazon.com/images/I/61tXIpILF8L._AC_UY395_.jpg" 
+                  alt="">
+                  <div class="product-info-part2">
+                    <a href="#">
+                      <h5>Earrings Blue Gold</h5>
+                    </a>
+                    <span>Used</span>
+                    <p>From: <span>San Francisco, US</span></p>
+                  </div>
+                  <div class="product-more-details">
+                    <a href="">+</a>
+                    <span>450$</span>
+                  </div>
+                </div>
+              </div>        
+              </div>
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" href="#main-part2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#main-part2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
   
-      <div class="part1">2</div>
+      <div class="part3">3</div>
   
-      <div class="part2">3</div>
-  
-      <div class="part3">4</div>
-      -->
+      <div class="part4">4</div>
     </main>
   
     
