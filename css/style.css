@@ -178,7 +178,7 @@ nav {
   display: grid;
   grid-template-rows: 2fr 1fr;
   grid-template-columns: repeat(3, auto);
-  background-image: url("../img/batthern.png");
+  background-image: url("../img/random-grey-variations.png");
 }
 
 .form-header {
@@ -458,11 +458,14 @@ footer ul {
 }
 
 .footer01 {
+  margin: 0 20px;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer01 > * {
-  margin: 0 40px;
+  margin: 0 20px;
   font-size: 13px;
 }
 
@@ -471,6 +474,7 @@ footer ul {
 }
 
 .business-info-footer {
+  max-width: 250px;
   text-align: justify;
 }
 
@@ -482,10 +486,6 @@ footer ul {
 .categories-list-box {
   flex-shrink: 1;
   display: flex;
-}
-
-.options-footer {
-  margin: auto 40px;
 }
 
 .op-titlebtn-footer {

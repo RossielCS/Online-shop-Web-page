@@ -116,7 +116,7 @@
         </div>
         <!--SECOND NAV-->      
       </nav>
-      <div class="bg-color01 search-header" id="header-index">
+      <div class="bg-color01 search-header" id="header-search">
           <form class="form-header" action="#">
             <label for="departments"></label>
             <select class="bg-color00" id="departments" name="departments">
@@ -140,23 +140,22 @@
     <main>
       <section class="results-search">
         <div class="options-search">
-          <div>
-            <div>
-              <form class="options-form-search" action="#" method="get">                
-                <label class="checkbox-custom" for="type1">
-                  <input type="checkbox" name="type1" value="0" checked="checked">
-                  <span class="checkmark"></span>
+          <div class="options01-search">
+              <form class="options-form-search options01-form" action="#" method="get">                
+                <input type="checkbox" name="type1" value="0" checked="checked">
+                <span class="checkmark"></span>
+                <label class="checkbox-custom" for="type1">                  
                   Ring
                 </label><br>
 
                 <input type="checkbox" name="type2" value="1">
+                <span class="checkmark"></span>
                 <label for="type2"> Bracelet</label>
               </form>
-            </div>
           </div>
 
           <div>
-            <div>
+            <div class="title-options-search">
               <h3>Type</h3>
             </div>
 
@@ -175,52 +174,11 @@
               </form>
             </div>
           </div>
-
-          <div>
-            <div>
-              <h3>Type</h3>
-            </div>
-
-            <div>
-              <form action="#" method="get">                
-                <label class="checkbox-custom" for="type1">
-                  <input type="checkbox" name="type1" value="0" checked="checked">
-                  <span class="checkmark"></span>
-                  Ring
-                </label><br>
-
-                <input type="checkbox" name="type2" value="1">
-                <label for="type2"> Bracelet</label><br>
-                <input type="checkbox" name="type3" value="2">
-                <label for="type3"> Earrings</label>
-              </form>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <h3>Type</h3>
-            </div>
-
-            <div>
-              <form action="#" method="get">                
-                <label class="checkbox-custom" for="type1">
-                  <input type="checkbox" name="type1" value="0" checked="checked">
-                  <span class="checkmark"></span>
-                  Ring
-                </label><br>
-
-                <input type="checkbox" name="type2" value="1">
-                <label for="type2"> Bracelet</label><br>
-                <input type="checkbox" name="type3" value="2">
-                <label for="type3"> Earrings</label>
-              </form>
-            </div>
-          </div>
+          
         </div>
 
         <div class="showing-results">
-          <div class="header-results">
+          <div class="header-showing-results">
             <p>
               <span>138</span>
               Results for
@@ -245,7 +203,7 @@
                   </a>
                 </div>            
                 
-                <div>
+                <div class="content-info-results">
                   <p>
                     <span>Labore et dolore</span>
                   </p>
@@ -259,10 +217,10 @@
                   </p>
                 </div>                
     
-                <div>
-                  <span>23 Nov, 2020</span>
+                <div class="footer-info-results">
+                  <span class="content-info-results">23 Nov, 2020</span>
                   <div class="buttons-info-results">
-                    <button class="buttons-hotads buttons-result bg-color01 color00" type="button">
+                    <button class="d-none buttons-hotads buttons-result bg-color01 color00 gcall-button" type="button">
                       <span>Give a Call</span>
                     </button>
     
@@ -275,6 +233,29 @@
               </div>
             </div>
             
+            <div class="pagination-search-results">
+                <ul class="pag-ul-search-results">
+                  <li class="bg-color00">
+                    <a class="color03" href="#">1</a>
+                  </li>
+
+                  <li class="bg-color00">
+                    <a class="color03" href="#">2</a>
+                  </li>
+
+                  <li class="bg-color00">
+                    <a class="color03" href="#">3</a>
+                  </li>
+
+                  <li class="border-0">
+                    ...
+                  </li>
+
+                  <li class="bg-color00">
+                    <a class="color03" href="#">7</a>
+                  </li>
+                </ul>
+            </div>
           </div>          
         </div>
       </section>         
@@ -287,8 +268,7 @@
           <a href="#">
             <img class="nav-logo" src="./img/logo.png" alt="logo">
           </a> 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
 
         <div class="categories-footer">

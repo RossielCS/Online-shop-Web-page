@@ -26,21 +26,63 @@ main {
 
 .options-search {
   grid-column: 1 / 2;
+  padding: 30px 20px 0 50px;
+}
+
+.options01-form {
+  display: flex;
+}
+
+.options01-form > * {
+  padding-right: 10px;
+}
+
+.title-options-search {
+  margin: 10px 0;
+  border-bottom: 1px solid rgba(136, 136, 136, 0.5);
+}
+
+.header-showing-results {
+  padding: 30px 20px;
+}
+
+.header-showing-results p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 15px;
 }
 
 .showing-results {
   grid-column: 2 / 3;
   display: flex;
   flex-direction: column;
+  border-left: 1px solid rgba(136, 136, 136, 0.5);
+  border-right: 1px solid rgba(136, 136, 136, 0.5);
 }
 
 .result {
+  padding: 20px;
   display: flex;
+  align-items: center;
+  border-top: 1px solid rgba(136, 136, 136, 0.5);
+  border-bottom: 1px solid rgba(136, 136, 136, 0.5);
+}
+
+.result:hover {
+  background-color: white;
+}
+
+.result:hover .gcall-button {
+  display: flex !important;
+}
+
+.info-results {
+  margin-left: 30px;
 }
 
 .img-showing {
   margin: auto;
-  height: 200px;
+  height: 240px;
   width: 40%;
   background-image: url("https://images-na.ssl-images-amazon.com/images/I/61IXYVluqZL._AC_UY395_.jpg");
   background-repeat: no-repeat;
@@ -51,7 +93,6 @@ main {
 .title-info-results {
   width: 100%;
   display: inline-block;
-  background-color: aqua;
 }
 
 .title-info-results h3 {
@@ -62,6 +103,16 @@ main {
   float: right;
 }
 
+.content-info-results {
+  font-size: 14px;
+}
+
+.footer-info-results {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .buttons-info-results {
   display: flex;
   justify-content: right;
@@ -70,6 +121,28 @@ main {
 .buttons-result {
   margin-left: 15px;
   border-radius: 4px;
+}
+
+.pagination-search-results {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.pag-ul-search-results {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.pag-ul-search-results li {
+  padding: 1px 7px;
+  margin: 0 5px;
+  border-radius: 3px;
+  border: 1px solid #888;
+}
+
+.pag-ul-search-results li a {
+  text-decoration: none;
 }
 
 /*. checkbox-custom {
