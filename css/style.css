@@ -85,12 +85,21 @@
   background-color: #383838;
 }
 
+.white-space-nw {
+  white-space: nowrap;
+}
+
 body {
   min-width: 330px;
 }
 
 h3 {
   font-size: 20px;
+}
+
+li,
+button {
+  font-family: "HelveticaNeue-Medium", sans-serif;
 }
 
 /* HEADER */
@@ -163,7 +172,6 @@ nav {
   padding: 0 15px 0 15px;
   display: inline-block;
   line-height: 35px;
-  white-space: nowrap;
   border: none;
 }
 
@@ -436,7 +444,7 @@ main {
 }
 
 .product-part2 {
-  max-width: 250px;
+  max-width: 200px;
   padding: 0;
   margin: 5px 12px;
   display: flex;
@@ -562,8 +570,6 @@ main {
 /* FOOTER */
 
 footer {
-  height: 250px;
-  padding: 20px 0;
   background-color: rgb(255, 255, 255);
   border-top: 1px solid rgba(136, 136, 136, 0.3);
 }
@@ -574,14 +580,13 @@ footer ul {
 }
 
 .footer01 {
-  margin: 0 20px;
+  margin: 20px 40px 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
 .footer01 > * {
-  margin: 0 20px;
   font-size: 13px;
 }
 
@@ -604,18 +609,34 @@ footer ul {
   display: flex;
 }
 
+.navigation-list-footer a:hover,
+.categories-list-footer a:hover {
+  color: #888;
+  text-decoration: none;
+}
+
 .op-titlebtn-footer {
   margin: 20px 0;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
-.op-titlebtn-footer button {
+.button-footer {
   padding: 6px 12px;
   margin-left: 15px;
-  white-space: nowrap;
+  min-width: 100px;
   border: none;
   border: 1px solid rgba(136, 136, 136, 0.5);
+}
+
+.button-footer:hover {
+  color: #d35266;
+  background-color: #383838;
+}
+
+.button-footer:focus {
+  outline: none;
 }
 
 .footer02 {
