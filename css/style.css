@@ -136,6 +136,11 @@ nav {
   flex-shrink: 1;
 }
 
+.nav-list a:hover {
+  text-decoration: none;
+  color: #d35266;
+}
+
 .header-list01 {
   max-width: 900px;
   margin-right: 80px;
