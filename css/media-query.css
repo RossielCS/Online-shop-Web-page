@@ -40,7 +40,7 @@
 }
 
 @media only screen and (max-width: 736px) {
-  .search-bar {
+  .search-header {
     height: 450px;
   }
 

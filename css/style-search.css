@@ -1,0 +1,94 @@
+/* HEADER SEARCH */
+
+#header-search {
+  height: 210px;
+}
+
+/* HEADER SEARCH */
+
+/* MAIN */
+
+main {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1100px) 1fr;
+  grid-template-rows: auto;
+  background-image: url("../img/45-degree-fabric-light.png");
+}
+
+/* MAIN */
+
+.results-search {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.options-search {
+  grid-column: 1 / 2;
+}
+
+.showing-results {
+  grid-column: 2 / 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.result {
+  display: flex;
+}
+
+.img-showing {
+  margin: auto;
+  height: 200px;
+  width: 40%;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/61IXYVluqZL._AC_UY395_.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.title-info-results {
+  width: 100%;
+  display: inline-block;
+  background-color: aqua;
+}
+
+.title-info-results h3 {
+  float: left;
+}
+
+.title-info-results a {
+  float: right;
+}
+
+.buttons-info-results {
+  display: flex;
+  justify-content: right;
+}
+
+.buttons-result {
+  margin-left: 15px;
+  border-radius: 4px;
+}
+
+/*. checkbox-custom {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox-custom input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+} */

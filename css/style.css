@@ -6,20 +6,6 @@
 }
 
 @font-face {
-  font-family: "Raleway-Regular", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  src: url("../fonts/Raleway-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Raleway-Bold";
-  font-weight: 700;
-  font-style: normal;
-  src: url("../fonts/Raleway-Bold.ttf");
-}
-
-@font-face {
   font-family: "Raleway-ExtraBold";
   font-weight: 800;
   font-style: normal;
@@ -27,14 +13,14 @@
 }
 
 @font-face {
-  font-family: "HelveticaNeueLT-LightCond", sans-serif;
+  font-family: "HelveticaNeueLT-LightCond";
   font-weight: 300;
   font-style: normal;
   src: url("../fonts/HelveticaNeueLT-LightCond.otf");
 }
 
 @font-face {
-  font-family: "HelveticaNeueLT-MediumCond", sans-serif;
+  font-family: "HelveticaNeueLT-MediumCond";
   font-weight: 500;
   font-style: normal;
   src: url("../fonts/HelveticaNeueLT-MediumCond.otf");
@@ -47,8 +33,24 @@
   src: url("../fonts/HelveticaNeueLT-BoldCond.otf");
 }
 
-body {
-  min-width: 330px;
+.f-family-raleway-l {
+  font-family: "Raleway-Light", sans-serif;
+}
+
+.f-family-raleway-eb {
+  font-family: "Raleway-ExtraBold", sans-serif;
+}
+
+.f-family-helvetica-l {
+  font-family: "HelveticaNeueLT-LightCond", sans-serif;
+}
+
+.f-family-helvetica-m {
+  font-family: "HelveticaNeueLT-MediumCond", sans-serif;
+}
+
+.f-family-helvetica-b {
+  font-family: "HelveticaNeueLT-BoldCond", sans-serif;
 }
 
 .color00 {
@@ -81,6 +83,14 @@ body {
 
 .bg-color03 {
   background-color: #383838;
+}
+
+body {
+  min-width: 330px;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 /* HEADER */
@@ -159,13 +169,16 @@ nav {
 
 /* SEARCH BAR */
 
-.search-bar {
+#header-index {
   height: 350px;
-  /*max-width: 1100px;*/
+}
+
+.search-header {
   margin: auto;
   display: grid;
   grid-template-rows: 2fr 1fr;
   grid-template-columns: repeat(3, auto);
+  background-image: url("../img/batthern.png");
 }
 
 .form-header {
@@ -219,7 +232,6 @@ main {
   position: relative;
   max-width: 1100px;
   margin: auto;
-  font-family: "HelveticaNeueLT-LightCond", sans-serif;
 }
 
 .c-inner-hotads {
@@ -266,11 +278,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.product-info-hotads h3 {
-  font-family: "HelveticaNeueLT-MediumCond", sans-serif;
-  font-size: 20px;
 }
 
 .product-info-hotads p {
@@ -364,7 +371,7 @@ main {
   overflow-x: hidden;
 }
 
-/*.c-inner-part2::after {
+/* .c-inner-part2::after {
   content: "";
   position: absolute;
   top: 0;
@@ -372,7 +379,8 @@ main {
   width: 100%;
   height: 100%;
   background-image: linear-gradient(to right, rgba(255, 255, 255) 1%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0) 95%, rgba(255, 255, 255) 99%);
-}*/
+}
+*/
 
 .row-part2 {
   padding: 0 15px 0 15px;
@@ -410,17 +418,16 @@ main {
   justify-content: space-between;
 }
 
-.product-more-details a {
+.more-info-button {
   height: 25px;
   width: 25px;
   text-align: center;
   line-height: 22px;
   font-size: 11px;
-  font-weight: bold;
   border: 1px solid rgba(136, 136, 136, 0.5);
 }
 
-.product-more-details a:hover {
+.more-info-button:hover {
   color: #d35266;
   background-color: #383838;
 }
@@ -441,7 +448,6 @@ main {
 footer {
   height: 250px;
   padding: 20px 0;
-  font-family: "Raleway-Regular", sans-serif;
   background-color: rgb(255, 255, 255);
   border-top: 1px solid rgba(136, 136, 136, 0.3);
 }

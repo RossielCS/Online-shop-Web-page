@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-search.css">
+    <link rel="stylesheet" href="./css/media-query.css">
+    <script src="https://kit.fontawesome.com/90e1eb2041.js" crossorigin="anonymous"></script>
+    
+    <title>Online Shop</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="bg-color03">
+        <!--MAIN NAV-->
+        <div class="nav01-display-none">
+          <ul class="nav-list header-list01">
+            <li class="item-logo">
+              <a href="#">
+                <img class="nav-logo" src="./img/logo.png" alt="logo">
+                <span class="color00">LOGO</span>
+              </a>            
+            </li>
+  
+            <li>            
+              <a class="color02" href="#">
+                <i class="fas fa-home nav-icon"></i>
+                HOME
+              </a>
+            </li>
+  
+            <li>            
+              <a class="color02" href="#">
+                <i class="fas fa-border-all nav-icon"></i>
+                COLLECTIONS
+              </a>
+            </li>
+  
+            <li>            
+              <a class="color02" href="#">
+                <i class="fas fa-shopping-cart nav-icon"></i>
+                PURCHASE LIST
+              </a>
+            </li>
+  
+            <li class="item-postad">            
+              <a class="color00 bg-color01 nav-postad" href="#">
+                <span class="">POST AN AD</span>
+              </a>
+            </li>
+          </ul>
+          
+          <ul class="nav-list header-list02">
+            <li class="item-user">
+              <a class="color02" href="#">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </li>
+  
+            <li class="item-user">
+              <a class="color00" href="#">
+                USER NAME
+              </a>
+            </li>
+  
+            <li>
+              <a class="color02" href="#">
+                <i class="fas fa-user-circle"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--MAIN NAV-->
+        
+        <!--SECOND NAV-->
+        <div class="nav02-display-none">
+          <ul class="nav-list header-list01">
+            <li>
+              <a href="#">
+                <img class="nav-logo" src="./img/logo.png" alt="logo">
+              </a>            
+            </li>
+  
+            <li>            
+              <a class="color02" href="#">
+                <i class="fas fa-home nav-icon"></i>
+                <span class="list-display-none">HOME</span>  
+              </a>
+            </li>
+  
+            <li>            
+              <a class="color02" href="#">
+                <i class="fas fa-border-all nav-icon"></i>
+                <span class="list-display-none">COLLECTIONS</span>                
+              </a>
+            </li>
+  
+            <li>            
+              <a class="color02" href="#">
+                <i class="fas fa-shopping-cart nav-icon"></i>
+                <span class="list-display-none">PURCHASE LIST</span>                
+              </a>
+            </li>
+
+            <li class="menu-item">
+              <a class="color02" href="#">
+                <i class="fas fa-bars"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--SECOND NAV-->      
+      </nav>
+      <div class="bg-color01 search-header" id="header-index">
+          <form class="form-header" action="#">
+            <label for="departments"></label>
+            <select class="bg-color00" id="departments" name="departments">
+              <option value="video-games">Video Games</option>
+              <option value="consoles">Consoles</option>
+              <option value="accessories">Accessories</option>
+              <option value="virtual-reality">Virtual Reality</option>
+            </select>
+
+            <label for="t-product"></label>
+            <input class="bg-color00" type="text" id="t-product" name="type-product" placeholder="What are you searching?">
+            
+            <label for="n-product"></label>
+            <input class="bg-color00" type="text" id="n-product" name="name-product" placeholder="Introduce name here">
+
+            <input class="bg-color03 color02" type="submit" value="Search">
+          </form>
+      </div>
+    </header>
+  
+    <main>
+      <section class="results-search">
+        <div class="options-search">
+          <div>
+            <div>
+              <form class="options-form-search" action="#" method="get">                
+                <label class="checkbox-custom" for="type1">
+                  <input type="checkbox" name="type1" value="0" checked="checked">
+                  <span class="checkmark"></span>
+                  Ring
+                </label><br>
+
+                <input type="checkbox" name="type2" value="1">
+                <label for="type2"> Bracelet</label>
+              </form>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <h3>Type</h3>
+            </div>
+
+            <div>
+              <form action="#" method="get">                
+                <label class="checkbox-custom" for="type1">
+                  <input type="checkbox" name="type1" value="0" checked="checked">
+                  <span class="checkmark"></span>
+                  Ring
+                </label><br>
+
+                <input type="checkbox" name="type2" value="1">
+                <label for="type2"> Bracelet</label><br>
+                <input type="checkbox" name="type3" value="2">
+                <label for="type3"> Earrings</label>
+              </form>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <h3>Type</h3>
+            </div>
+
+            <div>
+              <form action="#" method="get">                
+                <label class="checkbox-custom" for="type1">
+                  <input type="checkbox" name="type1" value="0" checked="checked">
+                  <span class="checkmark"></span>
+                  Ring
+                </label><br>
+
+                <input type="checkbox" name="type2" value="1">
+                <label for="type2"> Bracelet</label><br>
+                <input type="checkbox" name="type3" value="2">
+                <label for="type3"> Earrings</label>
+              </form>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <h3>Type</h3>
+            </div>
+
+            <div>
+              <form action="#" method="get">                
+                <label class="checkbox-custom" for="type1">
+                  <input type="checkbox" name="type1" value="0" checked="checked">
+                  <span class="checkmark"></span>
+                  Ring
+                </label><br>
+
+                <input type="checkbox" name="type2" value="1">
+                <label for="type2"> Bracelet</label><br>
+                <input type="checkbox" name="type3" value="2">
+                <label for="type3"> Earrings</label>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="showing-results">
+          <div class="header-results">
+            <p>
+              <span>138</span>
+              Results for
+              <span>"Flat"</span>
+              Search at
+              <span>San Francisco</span>
+              in Category
+              <span>Real State</span>
+            </p>
+          </div>
+
+          <div class="body-showing-results">
+            <div class="result">
+              <div class="img-showing">
+              </div>
+    
+              <div class="info-results">
+                <div class="title-info-results">
+                  <h3>Eiusmod tempor incididunt</h3>
+                  <a class="color02 more-info-button" href="">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                </div>            
+                
+                <div>
+                  <p>
+                    <span>Labore et dolore</span>
+                  </p>
+                
+                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.</p>
+                
+                  <p>
+                    <span>Location:</span>
+                    <span> 21 Start Street, San Francisco US</span>
+                  </p>
+                </div>                
+    
+                <div>
+                  <span>23 Nov, 2020</span>
+                  <div class="buttons-info-results">
+                    <button class="buttons-hotads buttons-result bg-color01 color00" type="button">
+                      <span>Give a Call</span>
+                    </button>
+    
+    
+                    <button class="buttons-hotads buttons-result bg-color01 color00" type="button">
+                      <span>150$</span>
+                    </button>
+                  </div>
+                </div>            
+              </div>
+            </div>
+            
+          </div>          
+        </div>
+      </section>         
+    </main>
+  
+    
+    <footer>
+      <div class="footer01">
+        <div class="business-info-footer">
+          <a href="#">
+            <img class="nav-logo" src="./img/logo.png" alt="logo">
+          </a> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="categories-footer">
+          <div class="categories-title-footer">
+            <h6 class="color01">CATEGORIES</h6>
+          </div>
+          <div class="categories-list-box">
+            <ul class="categories-list">
+              <li>adipiscing</li>
+              <li>adipiscing</li>
+              <li>adipiscing</li>
+              <li>adipiscing</li>
+              <li>adipiscing</li>
+              <li>adipiscing</li>
+            </ul>
+
+            <ul>
+              <li>eiusmod</li>
+              <li>eiusmod</li>
+              <li>eiusmod</li>
+              <li>eiusmod</li>
+              <li>eiusmod</li>
+              <li>eiusmod</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="navigation-footer">
+          <div class="navigation-title-footer">
+            <h6 class="color01">NAVIGATION</h6>
+          </div>
+          <ul class="navigation-list-footer">
+            <li>consectetur</li>
+            <li>consectetur</li>
+            <li>consectetur</li>
+            <li>consectetur</li>
+            <li>consectetur</li>
+            <li>consectetur</li>
+          </ul>
+        </div>
+
+        <div class="options-footer">
+            <div class="op-titlebtn-footer">
+              <h6 class="m-0 color01">COUNTRY</h6>
+              <button class="bg-color00" type="button">
+                United States 
+              </button>
+            </div>
+
+            <div class="op-titlebtn-footer">
+              <h6 class="m-0 color01">COUNTRY</h6>
+              <button class="bg-color00" type="button">
+                United States 
+              </button>
+            </div>
+
+            <div class="op-titlebtn-footer">
+              <h6 class="m-0 color01">COUNTRY</h6>
+              <button class="bg-color00" type="button">
+                United States 
+              </button>
+            </div>
+        </div>  
+      </div>
+  
+  
+      <div class="footer02 color02">
+        <div class="items-footer02">
+          <p>
+            Copyright© 2015 Zattix.com. All Rights Reserved. Designed by Mohammed Awad.
+          </p>
+          <ul class="social-media-footer02">
+            <li>
+              <a href="#">
+                <img src="./img/icons8-instagram-24.png" alt="instagram">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="./img/icons8-linkedin-2-24.png" alt="linkedin">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="./img/icons8-twitter-22.png" alt="twitter">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="./img/icons8-facebook-f-22.png" alt="facebook">
+              </a>
+            </li>
+          </ul>
+        </div>        
+      </div>
+    </footer>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
