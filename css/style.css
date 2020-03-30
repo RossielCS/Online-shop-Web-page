@@ -13,24 +13,24 @@
 }
 
 @font-face {
-  font-family: "HelveticaNeueLT-LightCond";
+  font-family: "HelveticaNeue-Light";
   font-weight: 300;
   font-style: normal;
-  src: url("../fonts/HelveticaNeueLT-LightCond.otf");
+  src: url("../fonts/HelveticaNeue\ Light.ttf");
 }
 
 @font-face {
-  font-family: "HelveticaNeueLT-MediumCond";
+  font-family: "HelveticaNeue-Medium";
   font-weight: 500;
   font-style: normal;
-  src: url("../fonts/HelveticaNeueLT-MediumCond.otf");
+  src: url("../fonts/HelveticaNeue\ Medium.ttf");
 }
 
 @font-face {
-  font-family: "HelveticaNeueLT-BoldCond";
+  font-family: "HelveticaNeue-Bold";
   font-weight: 700;
   font-style: normal;
-  src: url("../fonts/HelveticaNeueLT-BoldCond.otf");
+  src: url("../fonts/Helvetica\ Neu\ Bold.ttf");
 }
 
 .f-family-raleway-l {
@@ -42,15 +42,15 @@
 }
 
 .f-family-helvetica-l {
-  font-family: "HelveticaNeueLT-LightCond", sans-serif;
+  font-family: "HelveticaNeue-Light", sans-serif;
 }
 
 .f-family-helvetica-m {
-  font-family: "HelveticaNeueLT-MediumCond", sans-serif;
+  font-family: "HelveticaNeue-Medium", sans-serif;
 }
 
 .f-family-helvetica-b {
-  font-family: "HelveticaNeueLT-BoldCond", sans-serif;
+  font-family: "HelveticaNeue-Bold", sans-serif;
 }
 
 .color00 {
@@ -164,6 +164,17 @@ nav {
   display: inline-block;
   line-height: 35px;
   white-space: nowrap;
+  border: none;
+}
+
+.nav-postad:hover {
+  color: #d35266;
+  background-color: white;
+  border: none;
+}
+
+.nav-postad:focus {
+  outline: none;
 }
 
 .fa-user-circle {
@@ -206,11 +217,26 @@ nav {
   border: 1px solid #d35266;
 }
 
+.form-header select {
+  padding-left: 35px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("../img/icons8-sort-down-20.png");
+  background-repeat: no-repeat;
+  background-position: 5px;
+}
+
 .form-header input[type=submit] {
   height: 50px;
   margin-left: 10px;
   flex-grow: 1;
   border: none;
+}
+
+.form-header input[type=submit]:hover {
+  color: #d35266;
+  background-color: white;
 }
 
 /* SEARCH BAR */
@@ -302,6 +328,16 @@ main {
   border: none;
 }
 
+.buttons-hotads:hover {
+  color: #d35266;
+  background-color: white;
+  border: none;
+}
+
+.buttons-hotads:focus {
+  outline: none;
+}
+
 .price-hotads {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -324,6 +360,12 @@ main {
   border: 1px solid rgba(136, 136, 136, 0.3);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.7);
+}
+
+.prev-next-hotads:hover {
+  text-decoration: none;
+  color: #d35266;
+  background-color: rgba(136, 136, 136, 0.2);
 }
 
 #c-prev {
@@ -388,7 +430,7 @@ main {
 */
 
 .row-part2 {
-  padding: 0 15px 0 15px;
+  padding: 0 25px 0 25px;
   flex-wrap: nowrap;
   overflow-x: hidden;
 }
@@ -418,7 +460,21 @@ main {
   font-size: 17px;
 }
 
+.product-info-part2 h5:hover {
+  color: #d35266;
+}
+
+.product-info-part2 p,
+.p-info-usednew {
+  font-size: 12px;
+}
+
+.product-info-part2 a:hover {
+  text-decoration: none;
+}
+
 .product-more-details {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
@@ -426,8 +482,6 @@ main {
 .more-info-button {
   height: 25px;
   width: 25px;
-  text-align: center;
-  line-height: 22px;
   font-size: 11px;
   border: 1px solid rgba(136, 136, 136, 0.5);
 }
@@ -437,12 +491,69 @@ main {
   background-color: #383838;
 }
 
+/* .more-info-button:focus .bubble,
+.more-info-button:focus .pointer {
+  display: block;
+} */
+
+.more-info-button:focus {
+  outline: none;
+}
+
+/* BUBBLE */
+.bubble-more-details {
+  /* display: none; */
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  left: 0;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #888;
+  border-radius: 4px;
+}
+
+.bubble-more-details ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bubble-list-item {
+  padding: 3px 17px;
+}
+
+.bubble-list-item:hover,
+.bubble-list-item:hover .bubble-links {
+  color: white;
+  background-color: #383838;
+}
+
+.bubble-pointer {
+  /* display: none; */
+  position: absolute;
+  bottom: 20px;
+  left: 5px;
+  height: 15px;
+  width: 15px;
+  transform: rotate(45deg);
+  border-radius: 0;
+  border: 1px solid #888;
+}
+
+/* BUBBLE */
+
 .c-buttons-part2 {
   position: absolute;
   top: 55%;
 }
 
-#c-btn-right-part2 {
+.c-buttons-part2:hover {
+  color: #d35266;
+}
+
+.c-btn-right-part2 {
   right: 0;
 }
 

@@ -49,10 +49,10 @@
               </a>
             </li>
   
-            <li class="item-postad">            
-              <a class="color00 bg-color01 nav-postad" href="#">
-                <span class="">POST AN AD</span>
-              </a>
+            <li class="item-postad">
+              <button class="color00 bg-color01 nav-postad" type="button">
+                POST AN AD
+              </button>
             </li>
           </ul>
           
@@ -118,20 +118,21 @@
         <!--SECOND NAV-->      
       </nav>
       <div class="bg-color01 search-header" id="header-index">
-          <form class="form-header" action="#">
+          <form class="form-header color02 f-family-raleway-l" action="#">
             <label for="departments"></label>
-            <select class="bg-color00" id="departments" name="departments">
-              <option value="video-games">Video Games</option>
-              <option value="consoles">Consoles</option>
-              <option value="accessories">Accessories</option>
-              <option value="virtual-reality">Virtual Reality</option>
+            <select class="bg-color00 color02" id="departments" name="departments">
+              <option value="departments">All Departments</option>
+              <option value="rings">Rings</option>
+              <option value="bracelets">Bracelets</option>
+              <option value="earrings">Earrings</option>
+              <option value="collars">Collars</option>
             </select>
 
             <label for="t-product"></label>
             <input class="bg-color00" type="text" id="t-product" name="type-product" placeholder="What are you searching?">
             
             <label for="n-product"></label>
-            <input class="bg-color00" type="text" id="n-product" name="name-product" placeholder="Introduce name here">
+            <input class="bg-color00" type="text" id="n-product" name="name-product" placeholder="Introduce location here">
 
             <input class="bg-color03 color02" type="submit" value="Search">
           </form>
@@ -142,19 +143,19 @@
       <section class="section-hotads">
         <div id="sales" class="carousel slide bg-color00 sales-hotads" data-ride="carousel">
           <div class="carousel-inner c-inner-hotads">
-            <h2 class="color02">HOT ADS</h2>
+            <h2 class="color02 f-family-helvetica-b">HOT ADS</h2>
             <div class="carousel-item active c-item-hotads">
               <div class="product-hotads">
                 
                 <div class="hotads-img-box" id="hotads01">                  
                 </div>
-                <div class="product-info-hotads">
+                <div class="product-info-hotads f-family-helvetica-m">
                   <h3 class="color01">MVCOLEDY Bracelet</h3>
-                  <p class="display-none-hotads">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  <p class="color02  display-none-hotads">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Eget velit aliquet sagittis id consectetur.</p>
-                  <p class="display-none-hotads"><span>By:</span> <span>MVCOLEDY</span> <br>
-                    <span>Location:</span> <span>San Francisco, Ca. United States.</span></p>
+                  <p class="display-none-hotads color02"><span>By:</span> <span class="f-family-helvetica-l">MVCOLEDY</span> <br>
+                    <spa>Location:</span> <span class="f-family-helvetica-l">San Francisco, Ca. United States.</span></p>
                   
                   <div class="button-space-hotads">
                     <button class="buttons-hotads bg-color01 color00 price-hotads" type="button">
@@ -172,15 +173,16 @@
             
             <div class="carousel-item c-item-hotads">
               <div class="product-hotads">
+                
                 <div class="hotads-img-box" id="hotads02">                  
                 </div>
-                <div class="product-info-hotads">
+                <div class="product-info-hotads f-family-helvetica-m">
                   <h3 class="color01">MVCOLEDY Bracelet</h3>
-                  <p class="display-none-hotads">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  <p class="color02  display-none-hotads">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Eget velit aliquet sagittis id consectetur.</p>
-                  <p class="display-none-hotads"><span>By:</span> <span>MVCOLEDY</span> <br>
-                    <span>Location:</span> <span>San Francisco, Ca. United States.</span></p>
+                  <p class="display-none-hotads color02"><span>By:</span> <span class="f-family-helvetica-l">MVCOLEDY</span> <br>
+                    <spa>Location:</span> <span class="f-family-helvetica-l">San Francisco, Ca. United States.</span></p>
                   
                   <div class="button-space-hotads">
                     <button class="buttons-hotads bg-color01 color00 price-hotads" type="button">
@@ -208,7 +210,7 @@
       </section>
       
       <section class="section-all">
-        <div class="part2">
+        <div class="part2 f-family-helvetica-m">
           <div class="title">
             <img src="./img/icons8-ring-side-view-27.png" alt="">
             <h4 class="color03">Rings</h4>
@@ -225,12 +227,50 @@
                       <a href="#">
                         <h5 class="color03">Earrings Blue Gold</h5>
                       </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">San Francisco, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 bg-color00 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>
+                        <span class="color01">450$</span>
+                        <blockquote class="bubble-more-details bg-color00 overflow-hidden">
+                          <ul>
+                            <li class="bubble-list-item">
+                              <a class="color03 bubble-links" href="#">
+                                Add to Collection
+                              </a>
+                            </li>
+                            <li class="bubble-list-item">
+                              <a class="color03 bubble-links" href="#">
+                                Send a Message
+                              </a>
+                            </li>
+                            <li class="bubble-list-item">
+                              <a class="color03 bubble-links" href="#">
+                                More Details
+                              </a>
+                            </li>
+                          </ul>
+                        </blockquote>
+                        <div class="bubble-pointer bg-color00"></div>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/61l3zhyeE4L._AC_UX500_.jpg" alt="">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Earrings Blue Gold</h5>
+                      </a>
                       <span class="color01">Used</span>
                       <p class="color02">From: <span class="color03">San Francisco, US</span></p>
                       <div class="product-more-details">
-                        <a class="color02 more-info-button" href="">
+                        <button class="color02 bg-color00 more-info-button" type="button">
                           <i class="fas fa-plus"></i>
-                        </a>
+                        </button>
                         <span class="color01">450$</span>
                       </div>
                     </div>
@@ -246,9 +286,9 @@
                       <span class="color01">Used</span>
                       <p class="color02">From: <span class="color03">San Francisco, US</span></p>
                       <div class="product-more-details">
-                        <a class="color02 more-info-button" href="">
+                        <button class="color02 bg-color00 more-info-button" type="button">
                           <i class="fas fa-plus"></i>
-                        </a>
+                        </button>
                         <span class="color01">450$</span>
                       </div>
                     </div>
@@ -264,9 +304,9 @@
                       <span class="color01">Used</span>
                       <p class="color02">From: <span class="color03">San Francisco, US</span></p>
                       <div class="product-more-details">
-                        <a class="color02 more-info-button" href="">
+                        <button class="color02 bg-color00 more-info-button" type="button">
                           <i class="fas fa-plus"></i>
-                        </a>
+                        </button>
                         <span class="color01">450$</span>
                       </div>
                     </div>
@@ -282,27 +322,9 @@
                       <span class="color01">Used</span>
                       <p class="color02">From: <span class="color03">San Francisco, US</span></p>
                       <div class="product-more-details">
-                        <a class="color02 more-info-button" href="">
+                        <button class="color02 bg-color00 more-info-button" type="button">
                           <i class="fas fa-plus"></i>
-                        </a>
-                        <span class="color01">450$</span>
-                      </div>
-                    </div>
-                  </div>
-        
-                  <div class="bg-color00 product-part2">
-                    <img class="product-img-part2"
-                      src="https://images-na.ssl-images-amazon.com/images/I/61l3zhyeE4L._AC_UX500_.jpg" alt="">
-                    <div class="product-info-part2">
-                      <a href="#">
-                        <h5 class="color03">Earrings Blue Gold</h5>
-                      </a>
-                      <span class="color01">Used</span>
-                      <p class="color02">From: <span class="color03">San Francisco, US</span></p>
-                      <div class="product-more-details">
-                        <a class="color02 more-info-button" href="">
-                          <i class="fas fa-plus"></i>
-                        </a>
+                        </button>
                         <span class="color01">450$</span>
                       </div>
                     </div>
@@ -322,9 +344,9 @@
                       <span class="color01">Used</span>
                       <p class="color02">From: <span class="color03">San Francisco, US</span></p>
                       <div class="product-more-details">
-                        <a class="color02 more-info-button" href="">
+                        <button class="color02 bg-color00 more-info-button" type="button">
                           <i class="fas fa-plus"></i>
-                        </a>
+                        </button>
                         <span class="color01">450$</span>
                       </div>
                     </div>
@@ -340,9 +362,9 @@
                       <span class="color01">Used</span>
                       <p class="color02">From: <span class="color03">San Francisco, US</span></p>
                       <div class="product-more-details">
-                        <a class="color02 more-info-button" href="">
+                        <button class="color02 bg-color00 more-info-button" type="button">
                           <i class="fas fa-plus"></i>
-                        </a>
+                        </button>
                         <span class="color01">450$</span>
                       </div>
                     </div>
@@ -358,9 +380,9 @@
                       <span class="color01">Used</span>
                       <p class="color02">From: <span class="color03">San Francisco, US</span></p>
                       <div class="product-more-details">
-                        <a class="color02 more-info-button" href="">
+                        <button class="color02 bg-color00 more-info-button" type="button">
                           <i class="fas fa-plus"></i>
-                        </a>
+                        </button>
                         <span class="color01">450$</span>
                       </div>
                     </div>
@@ -376,9 +398,9 @@
                       <span class="color01">Used</span>
                       <p class="color02">From: <span class="color03">San Francisco, US</span></p>
                       <div class="product-more-details">
-                        <a class="color02 more-info-button" href="">
+                        <button class="color02 bg-color00 more-info-button" type="button">
                           <i class="fas fa-plus"></i>
-                        </a>
+                        </button>
                         <span class="color01">450$</span>
                       </div>
                     </div>
@@ -394,9 +416,9 @@
                       <span class="color01">Used</span>
                       <p class="color02">From: <span class="color03">San Francisco, US</span></p>
                       <div class="product-more-details">
-                        <a class="color02 more-info-button" href="">
+                        <button class="color02 bg-color00 more-info-button" type="button">
                           <i class="fas fa-plus"></i>
-                        </a>
+                        </button>
                         <span class="color01">450$</span>
                       </div>
                     </div>
@@ -406,10 +428,10 @@
             </div>
           </div>
         
-          <a class="color03 c-buttons-part2" id="c-btn-left-part2" href="#main-part2" role="button" data-slide="prev">
+          <a class="color03 c-buttons-part2" href="#main-part2" role="button" data-slide="prev">
             <i class="fas fa-chevron-left"></i>
           </a>
-          <a class="color03 c-buttons-part2" id="c-btn-right-part2" href="#main-part2" role="button" data-slide="next">
+          <a class="color03 c-buttons-part2 c-btn-right-part2" href="#main-part2" role="button" data-slide="next">
             <i class="fas fa-chevron-right"></i>
           </a>
         </div>
