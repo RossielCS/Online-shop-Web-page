@@ -26,7 +26,7 @@ main {
 
 .options-search {
   grid-column: 1 / 2;
-  padding: 30px 20px 0 50px;
+  padding: 30px 20px;
 }
 
 .options01-form {
@@ -147,6 +147,7 @@ main {
   margin: auto;
   height: 240px;
   width: 40%;
+  min-width: 180px;
   background-image: url("https://images-na.ssl-images-amazon.com/images/I/61IXYVluqZL._AC_UY395_.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -155,15 +156,8 @@ main {
 
 .title-info-results {
   width: 100%;
-  display: inline-block;
-}
-
-.title-info-results h3 {
-  float: left;
-}
-
-.title-info-results button {
-  float: right;
+  display: flex;
+  justify-content: space-between;
 }
 
 .content-info-results {
@@ -197,34 +191,20 @@ main {
   list-style: none;
 }
 
-.pag-ul-search-results li {
+.pag-ul-item {
   padding: 1px 7px;
   margin: 0 5px;
   border-radius: 3px;
   border: 1px solid #888;
 }
 
-.pag-ul-search-results li a {
+.pag-ul-item a {
   text-decoration: none;
 }
 
-/*. checkbox-custom {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+.pag-ul-item:hover,
+.pag-ul-item:hover a {
+  color: white;
+  background-color: #d35266;
+  border-color: #d35266;
 }
-
-.checkbox-custom input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-} */
