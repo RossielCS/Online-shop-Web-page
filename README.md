@@ -1,62 +1,61 @@
-# Online-shop-Web-page
- This project is based on building the front-end of an E-commerce.
+# Newsweek-Clone
+ This is a HTML & CSS Capstone Project, wich is build is based on e-commerce. 
+ I followed the given [design](https://www.behance.net/gallery/24796463/ZATTIX), I changed the content and I used all the tools that I have learn so far as: HTML, CSS, Flexbox, Grid Layout, Bootstrap 4 and JavaScript.
+ 
+ 
 
-![screenshot](./app_screenshot.png)
+![Desktop]()
+
+![Mobile]()
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS,
+- Bootstrap 4,
+- JavaScript,
+- Visual Studio Code
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]()
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Before you continue, be sure that you have installed:
+* A Git GUI.
+* An Integrated Development Environment.
+* Chrome or Firefox. Internet Explorer is not supported.
 
-### Setup
+## Author
 
-### Install
+👤 **Rossiel Carranza**
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+* Github: [@RossielCS](https://github.com/RossielCS)
+* Linkedin: [Rossiel Carranza](https://www.linkedin.com/in/rossiel-carranza-1666b11a1/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
-
 Feel free to check the [issues page](issues/).
+
+1. Fork this repository.
+
+2. Create a branch: git checkout -b <branch_name>.
+
+3. Make your changes and commit them: git commit -m '<commit_message>'
+
+4. Push to the original branch: git push origin <project_name>/<location>
+
+5. Create the pull request.
+
 
 ## Show your support
 
@@ -67,6 +66,10 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
+
+## Credits
+
+Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad).
 
 ## 📝 License
 

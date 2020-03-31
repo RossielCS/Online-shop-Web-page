@@ -75,6 +75,14 @@
     padding: 0 35px;
   }
 
+  .logo-transparent {
+    display: none;
+  }
+
+  #logoname-search {
+    margin: 30px auto;
+  }
+
   .results-search {
     grid-template-columns: 1fr auto 1fr;
   }
@@ -200,6 +208,10 @@
 
   .nav-icon {
     font-size: 15px;
+  }
+
+  #logoname-search {
+    max-width: 300px;
   }
 
   .hotads-img-box {

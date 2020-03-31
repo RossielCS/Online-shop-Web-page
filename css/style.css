@@ -205,7 +205,18 @@ nav {
   background-image: url("../img/random-grey-variations.png");
 }
 
+.search-header::before {
+  background-image: url("../img/Logo-background.png");
+}
+
+.logo-name {
+  z-index: 1;
+  margin: auto;
+  grid-column: 2 / 3;
+}
+
 .form-header {
+  z-index: 1;
   grid-row: 2 / 3;
   grid-column: 2 / 3;
   margin: 0 20px;
@@ -245,6 +256,13 @@ nav {
 .form-header input[type=submit]:hover {
   color: #d35266;
   background-color: white;
+}
+
+.logo-transparent {
+  position: absolute;
+  bottom: 150px;
+  z-index: 0;
+  opacity: 0.3;
 }
 
 /* SEARCH BAR */
