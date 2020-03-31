@@ -5,9 +5,9 @@
  
  
 
-![Desktop]()
+![Desktop](https://user-images.githubusercontent.com/60085697/78061768-14bbd780-7364-11ea-9753-e0f2ae6ed291.png)
 
-![Mobile]()
+![Mobile](https://user-images.githubusercontent.com/60085697/78061873-3d43d180-7364-11ea-9155-1bc2f4435d95.png)
 
 Additional description about the project and its features.
 
@@ -22,7 +22,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/RossielCS/Online-shop-Web-page/Home-and-Search/index.html)
 
 
 ## Getting Started
