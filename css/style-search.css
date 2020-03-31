@@ -125,6 +125,7 @@ main {
 
 .result {
   padding: 20px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   border-top: 1px solid rgba(136, 136, 136, 0.5);
@@ -143,15 +144,24 @@ main {
   margin-left: 30px;
 }
 
-.img-showing {
-  margin: auto;
-  height: 240px;
-  width: 40%;
+.img-showing-box {
   min-width: 180px;
-  background-image: url("https://images-na.ssl-images-amazon.com/images/I/61IXYVluqZL._AC_UY395_.jpg");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
+}
+
+#img-showing01 {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/71TjuQMlodL._AC_UY395_.jpg");
+}
+
+#img-showing02 {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/71fvfHBYduL._AC_UX675_.jpg");
+}
+
+#img-showing03 {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/71wOW7nhK6L._AC_UY395_.jpg");
+}
+
+#img-showing04 {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/71hWLGAV1LL._AC_UX569_.jpg");
 }
 
 .title-info-results {
