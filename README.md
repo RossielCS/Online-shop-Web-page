@@ -1,6 +1,6 @@
 # Online Shop Web Page
  This is a HTML & CSS Capstone Project, wich is build is based on e-commerce. 
- I followed the given [design](https://www.behance.net/gallery/24796463/ZATTIX), I changed the content and I used all the tools that I have learn so far as: HTML, CSS, 
+ I followed the given desing [ZATTIX](https://www.behance.net/gallery/24796463/ZATTIX), I changed the content and I used all the tools that I have learn so far as: HTML, CSS, 
  Flexbox, Grid Layout, Bootstrap 4 and JavaScript.
  
  
