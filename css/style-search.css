@@ -39,7 +39,70 @@ main {
 
 .title-options-search {
   margin: 10px 0;
+  font-size: 14px;
   border-bottom: 1px solid rgba(136, 136, 136, 0.5);
+}
+
+.title-options-search h3 {
+  font-size: 16px;
+}
+
+.checkbox-custom {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  display: block;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox-custom input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  border: 1px solid rgba(136, 136, 136, 0.5);
+  border-radius: 2px;
+}
+
+.checkbox-custom:hover input ~ .checkmark {
+  background-color: rgba(136, 136, 136, 0.5);
+}
+
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-custom .checkmark::after {
+  left: 4px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid #383838;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.checkbox-custom input:checked ~ .checkmark::after {
+  display: block;
 }
 
 .header-showing-results {
@@ -99,7 +162,7 @@ main {
   float: left;
 }
 
-.title-info-results a {
+.title-info-results button {
   float: right;
 }
 

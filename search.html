@@ -48,10 +48,10 @@
               </a>
             </li>
   
-            <li class="item-postad">            
-              <a class="color00 bg-color01 nav-postad" href="#">
-                <span class="">POST AN AD</span>
-              </a>
+            <li class="item-postad">
+              <button class="color00 bg-color01 nav-postad white-space-nw" type="button">
+                POST AN AD
+              </button>
             </li>
           </ul>
           
@@ -103,7 +103,7 @@
             <li>            
               <a class="color02" href="#">
                 <i class="fas fa-shopping-cart nav-icon"></i>
-                <span class="list-display-none">PURCHASE LIST</span>                
+                <span class="list-display-none white-space-nw">PURCHASE LIST</span>                
               </a>
             </li>
 
@@ -117,20 +117,21 @@
         <!--SECOND NAV-->      
       </nav>
       <div class="bg-color01 search-header" id="header-search">
-          <form class="form-header" action="#">
+          <form class="form-header color02 f-family-raleway-l" action="#">
             <label for="departments"></label>
-            <select class="bg-color00" id="departments" name="departments">
-              <option value="video-games">Video Games</option>
-              <option value="consoles">Consoles</option>
-              <option value="accessories">Accessories</option>
-              <option value="virtual-reality">Virtual Reality</option>
+            <select class="bg-color00 color02" id="departments" name="departments">
+              <option value="departments">All Departments</option>
+              <option value="womens">Women's</option>
+              <option value="girl">Girl's</option>
+              <option value="mens">Men's</option>
+              <option value="boys">Boy's</option>
             </select>
 
             <label for="t-product"></label>
             <input class="bg-color00" type="text" id="t-product" name="type-product" placeholder="What are you searching?">
             
             <label for="n-product"></label>
-            <input class="bg-color00" type="text" id="n-product" name="name-product" placeholder="Introduce name here">
+            <input class="bg-color00" type="text" id="n-product" name="name-product" placeholder="Introduce location here">
 
             <input class="bg-color03 color02" type="submit" value="Search">
           </form>
@@ -139,54 +140,124 @@
   
     <main>
       <section class="results-search">
-        <div class="options-search">
-          <div class="options01-search">
-              <form class="options-form-search options01-form" action="#" method="get">                
-                <input type="checkbox" name="type1" value="0" checked="checked">
-                <span class="checkmark"></span>
-                <label class="checkbox-custom" for="type1">                  
-                  Ring
-                </label><br>
-
-                <input type="checkbox" name="type2" value="1">
-                <span class="checkmark"></span>
-                <label for="type2"> Bracelet</label>
+        <div class="options-search f-family-helvetica-l">
+          <div class="options01-search color02">
+              <form class="options-form-search options01-form" action="#">                
+                <label class="checkbox-custom">Used
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">New
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
               </form>
           </div>
 
           <div>
             <div class="title-options-search">
-              <h3>Type</h3>
+              <h3 class="color03 f-family-helvetica-m">Department</h3>
             </div>
 
-            <div>
-              <form action="#" method="get">                
-                <label class="checkbox-custom" for="type1">
-                  <input type="checkbox" name="type1" value="0" checked="checked">
+            <div class="color03">
+              <form action="#">
+                <label class="checkbox-custom">Women's
+                  <input type="checkbox" checked="checked">
                   <span class="checkmark"></span>
-                  Ring
-                </label><br>
-
-                <input type="checkbox" name="type2" value="1">
-                <label for="type2"> Bracelet</label><br>
-                <input type="checkbox" name="type3" value="2">
-                <label for="type3"> Earrings</label>
-              </form>
+                </label>
+                <label class="checkbox-custom">Girl's
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Men's
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Boy's
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </form>              
             </div>
           </div>
           
+          <div>
+            <div class="title-options-search">
+              <h3 class="color03 f-family-helvetica-m">Category</h3>
+            </div>
+
+            <div class="color03">
+              <form action="#">
+                <label class="checkbox-custom">Anklets
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Bracelets
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Brooches & Pins
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Earrings
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Necklaces
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Rings
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </form>              
+            </div>
+          </div>
+
+          <div>
+            <div class="title-options-search">
+              <h3 class="color03 f-family-helvetica-m">Price Range</h3>
+            </div>
+
+            <div class="color03">
+              <form action="#">
+                <label class="checkbox-custom">Under 25$
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">$25 to $50
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">$50 to $100
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">$100 to $200
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">$200 & Above
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </form>              
+            </div>
+          </div> 
         </div>
 
         <div class="showing-results">
-          <div class="header-showing-results">
+          <div class="color02 f-family-helvetica-l header-showing-results">
             <p>
-              <span>138</span>
+              <span class="f-family-helvetica-m">138</span>
               Results for
-              <span>"Flat"</span>
+              <span class="f-family-helvetica-m">"Flat"</span>
               Search at
-              <span>San Francisco</span>
+              <span class="f-family-helvetica-m">San Francisco</span>
               in Category
-              <span>Real State</span>
+              <span class="f-family-helvetica-m">Real State</span>
             </p>
           </div>
 
@@ -197,28 +268,28 @@
     
               <div class="info-results">
                 <div class="title-info-results">
-                  <h3>Eiusmod tempor incididunt</h3>
-                  <a class="color02 more-info-button" href="">
+                  <h3 class="color03 f-family-helvetica-m">Eiusmod tempor incididunt</h3>
+                  <button class="color02 more-info-button" type="button">
                     <i class="fas fa-plus"></i>
-                  </a>
+                  </button>
                 </div>            
                 
                 <div class="content-info-results">
                   <p>
-                    <span>Labore et dolore</span>
+                    <span class="color01 f-family-helvetica-m">Labore et dolore</span>
                   </p>
                 
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  <p class="color02 f-family-helvetica-l">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                     nisi ut aliquip ex ea commodo consequat.</p>
                 
                   <p>
-                    <span>Location:</span>
-                    <span> 21 Start Street, San Francisco US</span>
+                    <span class="color03 f-family-helvetica-m">Location:</span>
+                    <span class="color02 f-family-helvetica-l"> 21 Start Street, San Francisco US</span>
                   </p>
                 </div>                
     
                 <div class="footer-info-results">
-                  <span class="content-info-results">23 Nov, 2020</span>
+                  <span class="content-info-results color02 f-family-helvetica-l">23 Nov, 2020</span>
                   <div class="buttons-info-results">
                     <button class="d-none buttons-hotads buttons-result bg-color01 color00 gcall-button" type="button">
                       <span>Give a Call</span>
@@ -236,23 +307,23 @@
             <div class="pagination-search-results">
                 <ul class="pag-ul-search-results">
                   <li class="bg-color00">
-                    <a class="color03" href="#">1</a>
+                    <a class="color02" href="#">1</a>
                   </li>
 
                   <li class="bg-color00">
-                    <a class="color03" href="#">2</a>
+                    <a class="color02" href="#">2</a>
                   </li>
 
                   <li class="bg-color00">
-                    <a class="color03" href="#">3</a>
+                    <a class="color02" href="#">3</a>
                   </li>
 
-                  <li class="border-0">
+                  <li class="border-0 color02">
                     ...
                   </li>
 
                   <li class="bg-color00">
-                    <a class="color03" href="#">7</a>
+                    <a class="color02" href="#">7</a>
                   </li>
                 </ul>
             </div>
@@ -268,67 +339,139 @@
           <a href="#">
             <img class="nav-logo" src="./img/logo.png" alt="logo">
           </a> 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="color02 f-family-helvetica-l">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
 
         <div class="categories-footer">
           <div class="categories-title-footer">
-            <h6 class="color01">CATEGORIES</h6>
+            <h6 class="color01 f-family-helvetica-m">CATEGORIES</h6>
           </div>
           <div class="categories-list-box">
-            <ul class="categories-list">
-              <li>adipiscing</li>
-              <li>adipiscing</li>
-              <li>adipiscing</li>
-              <li>adipiscing</li>
-              <li>adipiscing</li>
-              <li>adipiscing</li>
+            <ul class="categories-list-footer">
+              <li>
+                <a class="color02" href="#">
+                  Women's
+                </a>
+              </li>
+              <li>
+                <a class="color02" href="#">
+                  Girl's
+                </a>
+              </li>
+              <li>
+                <a class="color02" href="#">
+                  Men's
+                </a>
+              </li>
+              <li>
+                <a class="color02" href="#">
+                  Boy's
+                </a>
+              </li>
             </ul>
 
-            <ul>
-              <li>eiusmod</li>
-              <li>eiusmod</li>
-              <li>eiusmod</li>
-              <li>eiusmod</li>
-              <li>eiusmod</li>
-              <li>eiusmod</li>
+            <ul class="categories-list-footer">
+              <li>
+                <a class="color02" href="#">
+                  Anklets
+                </a>
+              </li>
+
+              <li>
+                <a class="color02" href="#">
+                  Bracelets
+                </a>
+              </li>
+
+              <li>
+                <a class="color02 white-space-nw" href="#">
+                  Brooches & Pins
+                </a>
+              </li>
+
+              <li>
+                <a class="color02" href="#">
+                  Earrings
+                </a>
+              </li>
+
+              <li>
+                <a class="color02" href="#">
+                  Necklaces
+                </a>
+              </li>
+
+              <li>
+                <a class="color02" href="#">
+                  Rings
+                </a>
+              </li>
             </ul>
           </div>
         </div>
 
         <div class="navigation-footer">
           <div class="navigation-title-footer">
-            <h6 class="color01">NAVIGATION</h6>
+            <h6 class="color01 f-family-helvetica-m">NAVIGATION</h6>
           </div>
           <ul class="navigation-list-footer">
-            <li>consectetur</li>
-            <li>consectetur</li>
-            <li>consectetur</li>
-            <li>consectetur</li>
-            <li>consectetur</li>
-            <li>consectetur</li>
+            <li>
+              <a class="color02" href="#">
+                Home
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02 white-space-nw" href="#">
+                Sign In
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02 white-space-nw" href="#">
+                Sign Up
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02 white-space-nw" href="#">
+                Terms & Conditions
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02" href="#">
+                FAQ
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02" href="#">
+                Help
+              </a>
+            </li>
           </ul>
         </div>
 
         <div class="options-footer">
             <div class="op-titlebtn-footer">
-              <h6 class="m-0 color01">COUNTRY</h6>
-              <button class="bg-color00" type="button">
+              <h6 class="m-0 color01 f-family-helvetica-m">COUNTRY</h6>
+              <button class="bg-color00 color02 button-footer white-space-nw" type="button">
                 United States 
               </button>
             </div>
 
             <div class="op-titlebtn-footer">
-              <h6 class="m-0 color01">COUNTRY</h6>
-              <button class="bg-color00" type="button">
-                United States 
+              <h6 class="m-0 color01 f-family-helvetica-m">LANGUAGE</h6>
+              <button class="bg-color00 color02 button-footer" type="button">
+                English 
               </button>
             </div>
 
             <div class="op-titlebtn-footer">
-              <h6 class="m-0 color01">COUNTRY</h6>
-              <button class="bg-color00" type="button">
-                United States 
+              <h6 class="m-0 color01 f-family-helvetica-m">CURRENCY</h6>
+              <button class="bg-color00 color02 button-footer white-space-nw" type="button">
+                US Dollar 
               </button>
             </div>
         </div>  
