@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-search.css">
+    <link rel="stylesheet" href="./css/media-query.css">
+    <script src="https://kit.fontawesome.com/90e1eb2041.js" crossorigin="anonymous"></script>
+    
+    <title>Online Shop</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="bg-color03">
+        <!--MAIN NAV-->
+        <div class="nav01-display-none">
+          <ul class="nav-list header-list01">
+            <li class="item-logo">
+              <a href="#">
+                <img class="nav-logo" src="./img/logo.png" alt="anna mitchell white logo">
+              </a>            
+            </li>
+  
+            <li>            
+              <a class="color02" href="index.html">
+                <i class="fas fa-home nav-icon"></i>
+                HOME
+              </a>
+            </li>
+  
+            <li>            
+              <a class="color02" href="search.html">
+                <i class="fas fa-border-all nav-icon"></i>
+                COLLECTIONS
+              </a>
+            </li>
+  
+            <li>            
+              <a class="color02" href="#">
+                <i class="fas fa-shopping-cart nav-icon"></i>
+                PURCHASE LIST
+              </a>
+            </li>
+  
+            <li class="item-postad">
+              <button class="color00 bg-color01 nav-postad white-space-nw" type="button">
+                POST AN AD
+              </button>
+            </li>
+          </ul>
+          
+          <ul class="nav-list header-list02">
+            <li class="item-user">
+              <a class="color02" href="#">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </li>
+  
+            <li class="item-user">
+              <a class="color00" href="#">
+                USER NAME
+              </a>
+            </li>
+  
+            <li>
+              <a class="color02" href="#">
+                <i class="fas fa-user-circle"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--MAIN NAV-->
+        
+        <!--SECOND NAV-->
+        <div class="nav02-display-none">
+          <ul class="nav-list header-list01">
+            <li>
+              <a href="#">
+                <img class="nav-logo" src="./img/logo.png" alt="anna mitchell white small logo">
+              </a>            
+            </li>
+  
+            <li>            
+              <a class="color02" href="index.html">
+                <i class="fas fa-home nav-icon"></i>
+                <span class="list-display-none">HOME</span>  
+              </a>
+            </li>
+  
+            <li>            
+              <a class="color02" href="search.html">
+                <i class="fas fa-border-all nav-icon"></i>
+                <span class="list-display-none">COLLECTIONS</span>                
+              </a>
+            </li>
+  
+            <li>            
+              <a class="color02" href="#">
+                <i class="fas fa-shopping-cart nav-icon"></i>
+                <span class="list-display-none white-space-nw">PURCHASE LIST</span>                
+              </a>
+            </li>
+
+            <li class="menu-item">
+              <a class="color02" href="#">
+                <i class="fas fa-bars"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--SECOND NAV-->      
+      </nav>
+      <div class="bg-color01 search-header" id="header-search">
+        <h1 class="logo-name" id="logoname-search">
+          <img src="./img/Logo-name.png" alt="Anna Mitchell">
+        </h1>        
+          <form class="form-header color02 f-family-raleway-l" action="search.html">
+            <label for="departments"></label>
+            <select class="bg-color00 color02" id="departments" name="departments">
+              <option value="departments">All Departments</option>
+              <option value="womens">Women's</option>
+              <option value="girl">Girl's</option>
+              <option value="mens">Men's</option>
+              <option value="boys">Boy's</option>
+            </select>
+
+            <label for="t-product"></label>
+            <input class="bg-color00" type="text" id="t-product" name="type-product" placeholder="What are you searching?">
+            
+            <label for="n-product"></label>
+            <input class="bg-color00" type="text" id="n-product" name="name-product" placeholder="Introduce location here">
+
+            <input class="bg-color03 color02" type="submit" value="Search">
+          </form>
+      </div>
+    </header>
+  
+    <main>
+      <section class="results-search">
+        <div class="options-search f-family-helvetica-l">
+          <div>
+            <div class="title-options-search">
+              <h2 class="color03 f-family-helvetica-m">Condition</h2>
+            </div>
+            <div class="options01-search color03">
+                <form class="options-form-search options01-form" action="#">                
+                  <label class="checkbox-custom">Used
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkbox-custom">New
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                </form>
+            </div>
+          </div>          
+
+          <div>
+            <div class="title-options-search">
+              <h2 class="color03 f-family-helvetica-m">Department</h2>
+            </div>
+
+            <div class="color03">
+              <form class="options-form-search" action="#">
+                <label class="checkbox-custom">Women's
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Girl's
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Men's
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Boy's
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </form>              
+            </div>
+          </div>
+          
+          <div>
+            <div class="title-options-search">
+              <h2 class="color03 f-family-helvetica-m">Category</h2>
+            </div>
+
+            <div class="color03">
+              <form class="options-form-search" action="#">
+                <label class="checkbox-custom">Anklets
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Bracelets
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Brooches & Pins
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Earrings
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Necklaces
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">Rings
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </form>              
+            </div>
+          </div>
+
+          <div>
+            <div class="title-options-search">
+              <h2 class="color03 f-family-helvetica-m">Price Range</h2>
+            </div>
+
+            <div class="color03">
+              <form class="options-form-search" action="#">
+                <label class="checkbox-custom">Under 25$
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">$25 to $50
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">$50 to $100
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">$100 to $200
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-custom">$200 & Above
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </form>              
+            </div>
+          </div> 
+        </div>
+
+        <div class="showing-results">
+          <div class="color02 f-family-helvetica-l header-showing-results">
+            <h3>
+              <span class="f-family-helvetica-m">138</span>
+              Results for
+              <span class="f-family-helvetica-m">"Flat"</span>
+              Search at
+              <span class="f-family-helvetica-m">San Francisco</span>
+              in Category
+              <span class="f-family-helvetica-m">Real State</span>
+            </h3>
+          </div>
+
+          <div class="body-showing-results">
+            <div class="result">
+              <div class="hotads-img-box img-showing-box" id="img-showing01">
+                <div class="slideshow-button-hotads backward-button" onclick="myFunction(this)" > 
+                  <i class="fas fa-chevron-left color01 arrows-position-hotads"></i> 
+                </div>
+                <div class="slideshow-button-hotads" onclick="myFunction(this)"> 
+                  <i class="fas fa-chevron-right color01 arrows-position-hotads"></i> 
+                </div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71TjuQMlodL._AC_UY395_.jpg" alt="angel wing heart necklace">                  
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71wJuR1ejcL._AC_SY395._SX._UX._SY._UY_.jpg" alt="angel wing heart necklace">      
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71V7zOoZ8nL._AC_SY395._SX._UX._SY._UY_.jpg" alt="angel wing heart necklace">               
+              </div>
+    
+              <div class="info-results">
+                <div class="title-info-results">
+                  <h4 class="color03 f-family-helvetica-m">Angel Wing Heart Necklace</h4>
+                  <button class="color02 more-info-button" type="button">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>            
+                
+                <div class="content-info-results">
+                  <p>
+                    <span class="color01 f-family-helvetica-m">New</span>
+                  </p>
+                
+                  <p class="color02 f-family-helvetica-l">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.</p>
+                
+                  <p>
+                    <span class="color03 f-family-helvetica-m">Location:</span>
+                    <span class="color02 f-family-helvetica-l"> 21 Start Street, Maine US</span>
+                  </p>
+                </div>                
+    
+                <div class="footer-info-results">
+                  <span class="content-info-results color02 f-family-helvetica-l">23 Nov, 2020</span>
+                  <div class="buttons-info-results">
+                    <button class="d-none buttons-hotads buttons-result bg-color01 color00 gcall-button" type="button">
+                      <span>Give a Call</span>
+                    </button>
+    
+    
+                    <button class="buttons-hotads buttons-result bg-color01 color00" type="button">
+                      <span>25$</span>
+                    </button>
+                  </div>
+                </div>            
+              </div>
+            </div>
+
+            <div class="result">
+              <div class="hotads-img-box img-showing-box" id="img-showing02">
+                <div class="slideshow-button-hotads backward-button" onclick="myFunction(this)" > 
+                  <i class="fas fa-chevron-left color01 arrows-position-hotads"></i> 
+                </div>
+                <div class="slideshow-button-hotads" onclick="myFunction(this)"> 
+                  <i class="fas fa-chevron-right color01 arrows-position-hotads"></i> 
+                </div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71fvfHBYduL._AC_UX675_.jpg" alt="millefiori and silver dangle earrings">                  
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71kXSUm-hHL._AC_UX500_.jpg" alt="millefiori and silver dangle earrings">      
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81BLGl3JZML._AC_UX500_.jpg" alt="millefiori and silver dangle earrings">               
+              </div>
+    
+              <div class="info-results">
+                <div class="title-info-results">
+                  <h4 class="color03 f-family-helvetica-m">Millefiori And Silver Dangle Earrings</h4>
+                  <button class="color02 more-info-button" type="button">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>            
+                
+                <div class="content-info-results">
+                  <p>
+                    <span class="color01 f-family-helvetica-m">New</span>
+                  </p>
+                
+                  <p class="color02 f-family-helvetica-l">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.</p>
+                
+                  <p>
+                    <span class="color03 f-family-helvetica-m">Location:</span>
+                    <span class="color02 f-family-helvetica-l"> 21 Start Street, New Hampshire US</span>
+                  </p>
+                </div>                
+    
+                <div class="footer-info-results">
+                  <span class="content-info-results color02 f-family-helvetica-l">23 Nov, 2020</span>
+                  <div class="buttons-info-results">
+                    <button class="d-none buttons-hotads buttons-result bg-color01 color00 gcall-button" type="button">
+                      <span>Give a Call</span>
+                    </button>
+    
+    
+                    <button class="buttons-hotads buttons-result bg-color01 color00" type="button">
+                      <span>33$</span>
+                    </button>
+                  </div>
+                </div>            
+              </div>
+            </div>
+            
+            <div class="result">
+              <div class="hotads-img-box img-showing-box" id="img-showing03">
+                <div class="slideshow-button-hotads backward-button" onclick="myFunction(this)" > 
+                  <i class="fas fa-chevron-left color01 arrows-position-hotads"></i> 
+                </div>
+                <div class="slideshow-button-hotads" onclick="myFunction(this)"> 
+                  <i class="fas fa-chevron-right color01 arrows-position-hotads"></i> 
+                </div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71wOW7nhK6L._AC_UY395_.jpg" alt="handmade coastal stones jewelry set">                  
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71CNosEDIhL._AC_UY395_.jpg" alt="handmade coastal stones jewelry set">      
+                <img src="https://images-na.ssl-images-amazon.com/images/I/61HbBRYQ3yL._AC_UY395_.jpg" alt="handmade coastal stones jewelry set">               
+              </div>
+    
+              <div class="info-results">
+                <div class="title-info-results">
+                  <h4 class="color03 f-family-helvetica-m">Handmade Coastal Stones Jewelry Set</h4>
+                  <button class="color02 more-info-button" type="button">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>            
+                
+                <div class="content-info-results">
+                  <p>
+                    <span class="color01 f-family-helvetica-m">Used</span>
+                  </p>
+                
+                  <p class="color02 f-family-helvetica-l">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.</p>
+                
+                  <p>
+                    <span class="color03 f-family-helvetica-m">Location:</span>
+                    <span class="color02 f-family-helvetica-l"> 21 Start Street, New Hampshire US</span>
+                  </p>
+                </div>                
+    
+                <div class="footer-info-results">
+                  <span class="content-info-results color02 f-family-helvetica-l">23 Nov, 2020</span>
+                  <div class="buttons-info-results">
+                    <button class="d-none buttons-hotads buttons-result bg-color01 color00 gcall-button" type="button">
+                      <span>Give a Call</span>
+                    </button>
+    
+    
+                    <button class="buttons-hotads buttons-result bg-color01 color00" type="button">
+                      <span>17$</span>
+                    </button>
+                  </div>
+                </div>            
+              </div>
+            </div>
+
+            <div class="result">
+              <div class="hotads-img-box img-showing-box" id="img-showing04">
+                <div class="slideshow-button-hotads backward-button" onclick="myFunction(this)" > 
+                  <i class="fas fa-chevron-left color01 arrows-position-hotads"></i> 
+                </div>
+                <div class="slideshow-button-hotads" onclick="myFunction(this)"> 
+                  <i class="fas fa-chevron-right color01 arrows-position-hotads"></i> 
+                </div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71hWLGAV1LL._AC_UX569_.jpg" alt="rose gold with swarovski crystals bracelet">                  
+                <img src="https://images-na.ssl-images-amazon.com/images/I/61Src-0oEML._AC_UX569_.jpg" alt="rose gold with swarovski crystals bracelet">      
+              </div>
+    
+              <div class="info-results">
+                <div class="title-info-results">
+                  <h4 class="color03 f-family-helvetica-m">Rose Gold with Swarovski Crystals Bracelet</h4>
+                  <button class="color02 more-info-button" type="button">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>            
+                
+                <div class="content-info-results">
+                  <p>
+                    <span class="color01 f-family-helvetica-m">New</span>
+                  </p>
+                
+                  <p class="color02 f-family-helvetica-l">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.</p>
+                
+                  <p>
+                    <span class="color03 f-family-helvetica-m">Location:</span>
+                    <span class="color02 f-family-helvetica-l"> 21 Start Street, New York US</span>
+                  </p>
+                </div>                
+    
+                <div class="footer-info-results">
+                  <span class="content-info-results color02 f-family-helvetica-l">23 Nov, 2020</span>
+                  <div class="buttons-info-results">
+                    <button class="d-none buttons-hotads buttons-result bg-color01 color00 gcall-button" type="button">
+                      <span>Give a Call</span>
+                    </button>
+    
+    
+                    <button class="buttons-hotads buttons-result bg-color01 color00" type="button">
+                      <span>49$</span>
+                    </button>
+                  </div>
+                </div>            
+              </div>
+            </div>
+            <div class="pagination-search-results">
+                <ul class="pag-ul-search-results">
+                  <li class="bg-color00 pag-ul-item">
+                    <a class="color02" href="#">1</a>
+                  </li>
+
+                  <li class="bg-color00 pag-ul-item">
+                    <a class="color02" href="#">2</a>
+                  </li>
+
+                  <li class="bg-color00 pag-ul-item">
+                    <a class="color02" href="#">3</a>
+                  </li>
+
+                  <li class="border-0 color02 pt-1">
+                    ...
+                  </li>
+
+                  <li class="bg-color00 pag-ul-item">
+                    <a class="color02" href="#">7</a>
+                  </li>
+                </ul>
+            </div>
+          </div>          
+        </div>
+      </section>         
+    </main>
+  
+    
+    <footer>
+      <div class="footer01">
+        <div class="business-info-footer">
+          <a href="#">
+            <h5 class="nav-logo">
+              <img src="./img/logo-gray.png" alt="anna mitchell gray logo">
+            </h5>            
+          </a> 
+          <p class="color02 f-family-helvetica-l">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="categories-footer">
+          <div class="categories-title-footer">
+            <h6 class="color01 f-family-helvetica-m">CATEGORIES</h6>
+          </div>
+          <div class="categories-list-box">
+            <ul class="categories-list-footer">
+              <li>
+                <a class="color02" href="#">
+                  Women's
+                </a>
+              </li>
+              <li>
+                <a class="color02" href="#">
+                  Girl's
+                </a>
+              </li>
+              <li>
+                <a class="color02" href="#">
+                  Men's
+                </a>
+              </li>
+              <li>
+                <a class="color02" href="#">
+                  Boy's
+                </a>
+              </li>
+            </ul>
+
+            <ul class="categories-list-footer">
+              <li>
+                <a class="color02" href="#">
+                  Anklets
+                </a>
+              </li>
+
+              <li>
+                <a class="color02" href="#">
+                  Bracelets
+                </a>
+              </li>
+
+              <li>
+                <a class="color02 white-space-nw" href="#">
+                  Brooches & Pins
+                </a>
+              </li>
+
+              <li>
+                <a class="color02" href="#">
+                  Earrings
+                </a>
+              </li>
+
+              <li>
+                <a class="color02" href="#">
+                  Necklaces
+                </a>
+              </li>
+
+              <li>
+                <a class="color02" href="#">
+                  Rings
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="navigation-footer">
+          <div class="navigation-title-footer">
+            <h6 class="color01 f-family-helvetica-m">NAVIGATION</h6>
+          </div>
+          <ul class="navigation-list-footer">
+            <li>
+              <a class="color02" href="index.html">
+                Home
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02 white-space-nw" href="#">
+                Sign In
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02 white-space-nw" href="#">
+                Sign Up
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02 white-space-nw" href="#">
+                Terms & Conditions
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02" href="#">
+                FAQ
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02" href="#">
+                Help
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="options-footer">
+            <div class="op-titlebtn-footer">
+              <h6 class="m-0 color01 f-family-helvetica-m">COUNTRY</h6>
+              <button class="bg-color00 color02 button-footer white-space-nw" type="button">
+                United States 
+              </button>
+            </div>
+
+            <div class="op-titlebtn-footer">
+              <h6 class="m-0 color01 f-family-helvetica-m">LANGUAGE</h6>
+              <button class="bg-color00 color02 button-footer" type="button">
+                English 
+              </button>
+            </div>
+
+            <div class="op-titlebtn-footer">
+              <h6 class="m-0 color01 f-family-helvetica-m">CURRENCY</h6>
+              <button class="bg-color00 color02 button-footer white-space-nw" type="button">
+                US Dollar 
+              </button>
+            </div>
+        </div>  
+      </div>
+  
+  
+      <div class="footer02 color02">
+        <div class="items-footer02">
+          <p>
+            Copyright© 2015 Zattix.com. All Rights Reserved. Designed by Mohammed Awad.
+          </p>
+          <ul class="social-media-footer02">
+            <li>
+              <a href="#">
+                <img src="./img/icons8-instagram-24.png" alt="instagram">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="./img/icons8-linkedin-2-24.png" alt="linkedin">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="./img/icons8-twitter-22.png" alt="twitter">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="./img/icons8-facebook-f-22.png" alt="facebook">
+              </a>
+            </li>
+          </ul>
+        </div>        
+      </div>
+    </footer>
+
+    <script>
+      function myFunction(elem) 
+      {
+        var imgs = elem.parentElement.getElementsByTagName('img');
+        var tempImg;
+
+        if(elem.getAttribute('class') =='forward-button')
+        {
+          tempImg = imgs[0].src;
+          for (var i = 0; i < imgs.length-1; i++)
+          {
+            imgs[i].src = imgs[i+1].src
+          }
+
+          imgs[imgs.length-1].src = tempImg;
+        } 
+        else 
+        {
+          tempImg = imgs[imgs.length-1].src;
+          for (var i = imgs.length-1; i > 0; i--)
+          {
+            imgs[i].src = imgs[i-1].src
+          }
+          imgs[0].src = tempImg;
+        }
+
+        elem.parentElement.style.backgroundImage = 'url('+ imgs[0].getAttribute('src') +')';             
+      } 
+    </script>    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

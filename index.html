@@ -1,0 +1,1437 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media-query.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <script src="https://kit.fontawesome.com/90e1eb2041.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <title>Online Shop</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="bg-color03">
+        <!--MAIN NAV-->
+        <div class="nav01-display-none">
+          <ul class="nav-list header-list01">
+            <li class="item-logo">
+              <a href="#">
+                <img class="nav-logo" src="./img/logo.png" alt="anna mitchell white logo">
+              </a>            
+            </li>
+  
+            <li>            
+              <a class="color02" href="index.html">
+                <i class="fas fa-home nav-icon"></i>
+                HOME
+              </a>
+            </li>
+  
+            <li>            
+              <a class="color02" href="search.html">
+                <i class="fas fa-border-all nav-icon"></i>
+                COLLECTIONS
+              </a>
+            </li>
+  
+            <li>            
+              <a class="color02" href="#">
+                <i class="fas fa-shopping-cart nav-icon"></i>
+                PURCHASE LIST
+              </a>
+            </li>
+  
+            <li class="item-postad">
+              <button class="color00 bg-color01 nav-postad white-space-nw" type="button">
+                POST AN AD
+              </button>
+            </li>
+          </ul>
+          
+          <ul class="nav-list header-list02">
+            <li class="item-user">
+              <a class="color02" href="#">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </li>
+  
+            <li class="item-user">
+              <a class="color00" href="#">
+                USER NAME
+              </a>
+            </li>
+  
+            <li>
+              <a class="color02" href="#">
+                <i class="fas fa-user-circle"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--MAIN NAV-->
+        
+        <!--SECOND NAV-->
+        <div class="nav02-display-none">
+          <ul class="nav-list header-list01">
+            <li>
+              <a href="#">
+                <img class="nav-logo" src="./img/logo.png" alt="anna mitchell white small logo">
+              </a>            
+            </li>
+  
+            <li>            
+              <a class="color02" href="index.html">
+                <i class="fas fa-home nav-icon"></i>
+                <span class="list-display-none">HOME</span>  
+              </a>
+            </li>
+  
+            <li>            
+              <a class="color02" href="search.html">
+                <i class="fas fa-border-all nav-icon"></i>
+                <span class="list-display-none">COLLECTIONS</span>                
+              </a>
+            </li>
+  
+            <li>            
+              <a class="color02" href="#">
+                <i class="fas fa-shopping-cart nav-icon"></i>
+                <span class="list-display-none white-space-nw">PURCHASE LIST</span>                
+              </a>
+            </li>
+
+            <li class="menu-item">
+              <a class="color02" href="#">
+                <i class="fas fa-bars"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--SECOND NAV-->      
+      </nav>
+      <div class="bg-color01 search-header" id="header-index">
+        <h1 class="logo-name">
+          <img src="./img/Logo-name.png" alt="Anna Mitchell">
+        </h1>        
+        <form class="form-header color02 f-family-raleway-l" action="search.html">
+          <label for="departments"></label>
+          <select class="bg-color00 color02" id="departments" name="departments">
+            <option value="departments">All Departments</option>
+            <option value="womens">Women's</option>
+            <option value="girl">Girl's</option>
+            <option value="mens">Men's</option>
+            <option value="boys">Boy's</option>
+          </select>
+      
+          <label for="t-product"></label>
+          <input class="bg-color00" type="text" id="t-product" name="type-product" placeholder="What are you searching?">
+      
+          <label for="n-product"></label>
+          <input class="bg-color00" type="text" id="n-product" name="name-product" placeholder="Introduce location here">
+      
+          <input class="bg-color03 color02" type="submit" value="Search" >
+        </form>
+      </div>
+    </header>
+  
+    <main>     
+      <section class="section-hotads">
+        <div id="sales" class="carousel slide bg-color00 sales-hotads" data-ride="carousel">
+          <div class="carousel-inner c-inner-hotads">
+            <h2 class="color02 f-family-helvetica-b">HOT ADS</h2>
+            <div class="carousel-item active c-item-hotads">
+              <div class="product-hotads">
+                
+                <div class="hotads-img-box" id="hotads01">
+                  <div class="slideshow-button-hotads backward-button" onclick="myFunction(this)" > 
+                    <i class="fas fa-chevron-left color01 arrows-position-hotads"></i> 
+                  </div>
+                  <div class="slideshow-button-hotads" onclick="myFunction(this)"> 
+                    <i class="fas fa-chevron-right color01 arrows-position-hotads"></i> 
+                  </div>
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/61mWiZdSDWL._AC_UX395_.jpg" alt="front silver ring">                  
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/61ZMDe%2B76OL._AC_UX395_.jpg" alt="side silver ring">      
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/610qE98yYRL._AC_UY395_.jpg" alt="back silver ring">               
+                </div>
+                <div class="product-info-hotads f-family-helvetica-m">
+                  <h3 class="color01">Silver Aquamarine Gemstone</h3>
+                  <p class="color02  display-none-hotads">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Eget velit aliquet sagittis id consectetur.
+                  </p>
+                  <p class="display-none-hotads color02"><span>By:</span> <span class="f-family-helvetica-l">SOSUO</span> <br>
+                    <span>Location:</span> <span class="f-family-helvetica-l">San Francisco, Ca. United States.</span></p>
+                  
+                  <div class="button-space-hotads">
+                    <button class="buttons-hotads bg-color01 color00 price-hotads" type="button">
+                      $450
+                    </button>
+    
+                    <button class="buttons-hotads bg-color01 color00 purchase-hotads" type="button">
+                      <i class="fas fa-shopping-cart nav-icon"></i>
+                      <span class="purchase-text-hotads">Purchase details</span>
+                    </button>
+                  </div>                
+                </div>
+              </div>                          
+            </div>
+            
+            <div class="carousel-item c-item-hotads">
+              <div class="product-hotads">
+                
+                <div class="hotads-img-box" id="hotads02">
+                  <div class="slideshow-button-hotads backward-button" onclick="myFunction(this)" > 
+                    <i class="fas fa-chevron-left color01 arrows-position-hotads"></i> 
+                  </div>
+                  <div class="slideshow-button-hotads" onclick="myFunction(this)"> 
+                    <i class="fas fa-chevron-right color01 arrows-position-hotads"></i> 
+                  </div>
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/61klPQ1HVrL._AC_SY355_.jpg" alt="drop dangle earrings">                  
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/51S2cDx54zL._AC_SX355_.jpg" alt="drop dangle earrings">      
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/51GfK01JhSL._AC_SY355_.jpg" alt="drop dangle earrings">               
+                </div>
+                <div class="product-info-hotads f-family-helvetica-m">
+                  <h3 class="color01">Drop Dangle Earrings</h3>
+                  <p class="color02  display-none-hotads">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Eget velit aliquet sagittis id consectetur.</p>
+                  <p class="display-none-hotads color02">
+                    <span>By:</span> <span class="f-family-helvetica-l">SOSUO</span><br>
+                    <span>Location:</span> <span class="f-family-helvetica-l">San Francisco, Ca. United States.</span>
+                  </p>
+                  
+                  <div class="button-space-hotads">
+                    <button class="buttons-hotads bg-color01 color00 price-hotads" type="button">
+                      $450
+                    </button>
+    
+                    <button class="buttons-hotads bg-color01 color00 purchase-hotads" type="button">
+                      <i class="fas fa-shopping-cart nav-icon"></i>
+                      <span class="purchase-text-hotads">Purchase details</span>
+                    </button>
+                  </div>                
+                </div>
+              </div>                          
+            </div>
+
+            <div class="carousel-item c-item-hotads">
+              <div class="product-hotads">
+                
+                <div class="hotads-img-box" id="hotads03">
+                  <div class="slideshow-button-hotads backward-button" onclick="myFunction(this)" > 
+                    <i class="fas fa-chevron-left color01 arrows-position-hotads"></i> 
+                  </div>
+                  <div class="slideshow-button-hotads" onclick="myFunction(this)"> 
+                    <i class="fas fa-chevron-right color01 arrows-position-hotads"></i> 
+                  </div>
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/81E3qFSU1ML._AC_SY355_.jpg" alt="turtle pendant">                  
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/51QBK2kBFSL._AC_SY355_.jpg" alt="turtle pendant">               
+                </div>
+                <div class="product-info-hotads f-family-helvetica-m">
+                  <h3 class="color01">Turtle Pendant</h3>
+                  <p class="color02  display-none-hotads">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Eget velit aliquet sagittis id consectetur.</p>
+                  <p class="display-none-hotads color02">
+                    <span>By:</span> <span class="f-family-helvetica-l">Beiswe</span><br>
+                    <span>Location:</span> <span class="f-family-helvetica-l">New York, NY. United States.</span>
+                  </p>
+                  
+                  <div class="button-space-hotads">
+                    <button class="buttons-hotads bg-color01 color00 price-hotads" type="button">
+                      $450
+                    </button>
+    
+                    <button class="buttons-hotads bg-color01 color00 purchase-hotads" type="button">
+                      <i class="fas fa-shopping-cart nav-icon"></i>
+                      <span class="purchase-text-hotads">Purchase details</span>
+                    </button>
+                  </div>                
+                </div>
+              </div>                          
+            </div>
+          </div>
+          
+          <!-- Left and right controls -->
+          <a class="color01 prev-next-hotads" id="c-prev" href="#sales" data-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+          </a>
+          <a class="color01 prev-next-hotads" id="c-next" href="#sales" data-slide="next">
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </section>
+      
+      <section class="section-all">
+        <div class="part2 f-family-helvetica-m">
+          <div class="title">
+            <img src="./img/icons8-ring-side-view-27.png" alt="ring icon">
+            <h4 class="color03">Rings</h4>
+          </div>
+        
+          <div id="main-part2" class="carousel slide" data-ride="carousel" data-interval="0">
+            <div class="carousel-inner c-inner-part2">
+              <div class="carousel-item active">
+                <div class="row row-part2">
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/41%2B-FS1L58L._AC_UY395_.jpg" alt="ring with pearl">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Pearl and Swarovski Crystal</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">San Francisco, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">55$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/41%2B-FS1L58L._AC_UY395_.jpg" alt="ring with pearl">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Pearl and Swarovski Crystal</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">San Francisco, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">55$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/41%2B-FS1L58L._AC_UY395_.jpg" alt="ring with pearl">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Pearl and Swarovski Crystal</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">San Francisco, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">55$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/41%2B-FS1L58L._AC_UY395_.jpg" alt="ring with pearl">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Pearl and Swarovski Crystal</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">San Francisco, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">55$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/41%2B-FS1L58L._AC_UY395_.jpg" alt="ring with pearl">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Pearl and Swarovski Crystal</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">San Francisco, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">55$</span>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="carousel-item">
+                <div class="row row-part2">
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/61X8KBO0EZL._AC_UY395_.jpg" alt="rose-gold ring">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Rose-Gold White Stone Ring</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">San Francisco, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/61X8KBO0EZL._AC_UY395_.jpg" alt="rose-gold ring">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Rose-Gold White Stone Ring</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">San Francisco, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/61X8KBO0EZL._AC_UY395_.jpg" alt="rose-gold ring">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Rose-Gold White Stone Ring</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">San Francisco, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/61X8KBO0EZL._AC_UY395_.jpg" alt="rose-gold ring">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Rose-Gold White Stone Ring</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">San Francisco, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/61X8KBO0EZL._AC_UY395_.jpg" alt="rose-gold ring">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Rose-Gold White Stone Ring</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">San Francisco, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row row-part2">
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/610jBM1Im0L._AC_UX535_.jpg" alt="rose gold blue sapphire ring">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Rose Gold and Blue Sapphire</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/610jBM1Im0L._AC_UX535_.jpg" alt="rose gold blue sapphire ring">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Rose Gold and Blue Sapphire</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/610jBM1Im0L._AC_UX535_.jpg" alt="rose gold blue sapphire ring">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Rose Gold and Blue Sapphire</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/610jBM1Im0L._AC_UX535_.jpg" alt="rose gold blue sapphire ring">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Rose Gold and Blue Sapphire</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/610jBM1Im0L._AC_UX535_.jpg" alt="rose gold blue sapphire ring">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Rose Gold and Blue Sapphire</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <a class="color03 c-buttons-part2" href="#main-part2" role="button" data-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+          </a>
+          <a class="color03 c-buttons-part2 c-btn-right-part2" href="#main-part2" role="button" data-slide="next">
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+
+        <div class="part2 f-family-helvetica-m">
+          <div class="title">
+            <img src="./img/icons8-bangles-27.png" alt="bracelet icon">
+            <h4 class="color03">Bracelets</h4>
+          </div>
+        
+          <div id="main-part3" class="carousel slide" data-ride="carousel" data-interval="0">
+            <div class="carousel-inner c-inner-part2">
+              <div class="carousel-item active">
+                <div class="row row-part2">
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71p7FdNs-kL._AC_UY395_.jpg" alt="leather cuff bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Leather Cuff Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Boston, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">14$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71p7FdNs-kL._AC_UY395_.jpg" alt="leather cuff bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Leather Cuff Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Boston, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">14$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71p7FdNs-kL._AC_UY395_.jpg" alt="leather cuff bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Leather Cuff Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Boston, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">14$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71p7FdNs-kL._AC_UY395_.jpg" alt="leather cuff bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Leather Cuff Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Boston, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">14$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71p7FdNs-kL._AC_UY395_.jpg" alt="leather cuff bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Leather Cuff Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Boston, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">14$</span>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="carousel-item">
+                <div class="row row-part2">
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71wLH5pEkBL._AC_UY395_.jpg" alt="turquoise bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Turquoise Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71wLH5pEkBL._AC_UY395_.jpg" alt="turquoise bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Turquoise Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71wLH5pEkBL._AC_UY395_.jpg" alt="turquoise bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Turquoise Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71wLH5pEkBL._AC_UY395_.jpg" alt="turquoise bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Turquoise Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71wLH5pEkBL._AC_UY395_.jpg" alt="turquoise bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Turquoise Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row row-part2">
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/711O3Cc5GnL._AC_UY395_.jpg" alt="blue sapphire bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Blue Sapphire Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/711O3Cc5GnL._AC_UY395_.jpg" alt="blue sapphire bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Blue Sapphire Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/711O3Cc5GnL._AC_UY395_.jpg" alt="blue sapphire bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Blue Sapphire Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/711O3Cc5GnL._AC_UY395_.jpg" alt="blue sapphire bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Blue Sapphire Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/711O3Cc5GnL._AC_UY395_.jpg" alt="blue sapphire bracelet">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Blue Sapphire Bracelet</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Florida, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">10$</span>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <a class="color03 c-buttons-part2" href="#main-part3" role="button" data-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+          </a>
+          <a class="color03 c-buttons-part2 c-btn-right-part2" href="#main-part3" role="button" data-slide="next">
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+
+        <div class="part2 f-family-helvetica-m">
+          <div class="title">
+            <img src="./img/icons8-necklace-27.png" alt="necklace icon">
+            <h4 class="color03">Necklaces</h4>
+          </div>
+        
+          <div id="main-part4" class="carousel slide" data-ride="carousel" data-interval="0">
+            <div class="carousel-inner c-inner-part2">
+              <div class="carousel-item active">
+                <div class="row row-part2">
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/61VHUYYGnlL._AC_UY395_.jpg" alt="birthstone heart necklace">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Birthstone Heart Necklace</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">New York, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">49$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/61VHUYYGnlL._AC_UY395_.jpg" alt="birthstone heart necklace">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Birthstone Heart Necklace</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">New York, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">49$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/61VHUYYGnlL._AC_UY395_.jpg" alt="birthstone heart necklace">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Birthstone Heart Necklace</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">New York, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">49$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/61VHUYYGnlL._AC_UY395_.jpg" alt="birthstone heart necklace">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Birthstone Heart Necklace</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">New York, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">49$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/61VHUYYGnlL._AC_UY395_.jpg" alt="birthstone heart necklace">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Birthstone Heart Necklace</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">New York, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">49$</span>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="carousel-item">
+                <div class="row row-part2">
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/81H8JOVlCxL._AC_UY395_.jpg" alt="phoenix nirvana">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Phoenix Nirvana</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Los Angeles, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">28$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/81H8JOVlCxL._AC_UY395_.jpg" alt="phoenix nirvana">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Phoenix Nirvana</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Los Angeles, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">28$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/81H8JOVlCxL._AC_UY395_.jpg" alt="phoenix nirvana">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Phoenix Nirvana</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Los Angeles, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">28$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/81H8JOVlCxL._AC_UY395_.jpg" alt="phoenix nirvana">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Phoenix Nirvana</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Los Angeles, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">28$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/81H8JOVlCxL._AC_UY395_.jpg" alt="phoenix nirvana">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Phoenix Nirvana</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">New</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Los Angeles, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">28$</span>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row row-part2">
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71h-PZmddHL._AC_UX679_.jpg" alt="bohemian style turquoise">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Bohemian Style Turquoise</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Boston, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">6$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71h-PZmddHL._AC_UX679_.jpg" alt="bohemian style turquoise">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Bohemian Style Turquoise</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Boston, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">6$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71h-PZmddHL._AC_UX679_.jpg" alt="bohemian style turquoise">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Bohemian Style Turquoise</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Boston, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">6$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71h-PZmddHL._AC_UX679_.jpg" alt="bohemian style turquoise">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Bohemian Style Turquoise</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Boston, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">6$</span>                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bg-color00 product-part2">
+                    <img class="product-img-part2"
+                      src="https://images-na.ssl-images-amazon.com/images/I/71h-PZmddHL._AC_UX679_.jpg" alt="bohemian style turquoise">
+                    <div class="product-info-part2">
+                      <a href="#">
+                        <h5 class="color03">Bohemian Style Turquoise</h5>
+                      </a>
+                      <span class="color01 p-info-usednew">Used</span>
+                      <p class="color02 f-family-helvetica-l">From: <span class="color03">Boston, US</span></p>
+                      <div class="product-more-details">
+                        <button class="color02 more-info-button" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>                        
+
+                        <span class="color01">6$</span>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <a class="color03 c-buttons-part2" href="#main-part4" role="button" data-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+          </a>
+          <a class="color03 c-buttons-part2 c-btn-right-part2" href="#main-part4" role="button" data-slide="next">
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </section>      
+    </main>  
+    
+    <footer>
+      <div class="footer01">
+        <div class="business-info-footer">
+          <a href="#">
+            <h5 class="nav-logo">
+              <img src="./img/logo-gray.png" alt="anna mitchell gray logo">
+            </h5>
+          </a> 
+          <p class="color02 f-family-helvetica-l">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="categories-footer">
+          <div class="categories-title-footer">
+            <h6 class="color01 f-family-helvetica-m">CATEGORIES</h6>
+          </div>
+          <div class="categories-list-box">
+            <ul class="categories-list-footer">
+              <li>
+                <a class="color02" href="#">
+                  Women's
+                </a>
+              </li>
+              <li>
+                <a class="color02" href="#">
+                  Girl's
+                </a>
+              </li>
+              <li>
+                <a class="color02" href="#">
+                  Men's
+                </a>
+              </li>
+              <li>
+                <a class="color02" href="#">
+                  Boy's
+                </a>
+              </li>
+            </ul>
+
+            <ul class="categories-list-footer">
+              <li>
+                <a class="color02" href="#">
+                  Anklets
+                </a>
+              </li>
+
+              <li>
+                <a class="color02" href="#">
+                  Bracelets
+                </a>
+              </li>
+
+              <li>
+                <a class="color02 white-space-nw" href="#">
+                  Brooches & Pins
+                </a>
+              </li>
+
+              <li>
+                <a class="color02" href="#">
+                  Earrings
+                </a>
+              </li>
+
+              <li>
+                <a class="color02" href="#">
+                  Necklaces
+                </a>
+              </li>
+
+              <li>
+                <a class="color02" href="#">
+                  Rings
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="navigation-footer">
+          <div class="navigation-title-footer">
+            <h6 class="color01 f-family-helvetica-m">NAVIGATION</h6>
+          </div>
+          <ul class="navigation-list-footer">
+            <li>
+              <a class="color02" href="index.html">
+                Home
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02 white-space-nw" href="#">
+                Sign In
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02 white-space-nw" href="#">
+                Sign Up
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02 white-space-nw" href="#">
+                Terms & Conditions
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02" href="#">
+                FAQ
+              </a>
+            </li>
+          
+            <li>
+              <a class="color02" href="#">
+                Help
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="options-footer">
+            <div class="op-titlebtn-footer">
+              <h6 class="m-0 color01 f-family-helvetica-m">COUNTRY</h6>
+              <button class="bg-color00 color02 button-footer white-space-nw" type="button">
+                United States 
+              </button>
+            </div>
+
+            <div class="op-titlebtn-footer">
+              <h6 class="m-0 color01 f-family-helvetica-m">LANGUAGE</h6>
+              <button class="bg-color00 color02 button-footer" type="button">
+                English 
+              </button>
+            </div>
+
+            <div class="op-titlebtn-footer">
+              <h6 class="m-0 color01 f-family-helvetica-m">CURRENCY</h6>
+              <button class="bg-color00 color02 button-footer white-space-nw" type="button">
+                US Dollar 
+              </button>
+            </div>
+        </div>  
+      </div>
+  
+  
+      <div class="footer02 color02">
+        <div class="items-footer02">
+          <p>
+            Copyright© 2015 Zattix.com. All Rights Reserved. Designed by Mohammed Awad.
+          </p>
+          <ul class="social-media-footer02">
+            <li>
+              <a href="#">
+                <img src="./img/icons8-instagram-24.png" alt="instagram">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="./img/icons8-linkedin-2-24.png" alt="linkedin">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="./img/icons8-twitter-22.png" alt="twitter">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="./img/icons8-facebook-f-22.png" alt="facebook">
+              </a>
+            </li>
+          </ul>
+        </div>        
+      </div>
+    </footer>
+
+    <script>
+      function myFunction(elem) 
+      {
+        var imgs = elem.parentElement.getElementsByTagName('img');
+        var tempImg;
+
+        if(elem.getAttribute('class') =='forward-button')
+        {
+          tempImg = imgs[0].src;
+          for (var i = 0; i < imgs.length-1; i++)
+          {
+            imgs[i].src = imgs[i+1].src
+          }
+
+          imgs[imgs.length-1].src = tempImg;
+        } 
+        else 
+        {
+          tempImg = imgs[imgs.length-1].src;
+          for (var i = imgs.length-1; i > 0; i--)
+          {
+            imgs[i].src = imgs[i-1].src
+          }
+          imgs[0].src = tempImg;
+        }
+
+        elem.parentElement.style.backgroundImage = 'url('+ imgs[0].getAttribute('src') +')';             
+      } 
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
