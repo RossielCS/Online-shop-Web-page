@@ -23,7 +23,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/RossielCS/Online-shop-Web-page/Home-and-Search/index.html)
+[Live Demo Link](https://raw.githack.com/RossielCS/Online-shop-Web-page/master/index.html)
 
 
 ## Getting Started
