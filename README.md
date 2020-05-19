@@ -1,6 +1,6 @@
 # Online Shop Web Page
-This is the HTML & CSS Capstone Project and was build based on an online shop.   
-I followed the given design whis is [ZATTIX](https://www.behance.net/gallery/24796463/ZATTIX) but changed the content to a jewelry e-commerce.
+This is the HTML & CSS Capstone Project and was build based on an online shop.
+I followed the given design which is [ZATTIX](https://www.behance.net/gallery/24796463/ZATTIX) but changed the content to jewelry e-commerce.
  
 
 ![Desktop](https://user-images.githubusercontent.com/60085697/82383088-824ec080-9a03-11ea-8d66-76fd3c1a81da.png)
@@ -42,8 +42,8 @@ To run the project:
 - Grid for layout.
 - Flexbox to position the elements inside the Grid.
 - Bootstrap's carousel.
-- Used Javascript for the slideshow in "Hot Ads" section.
-- Breaking point in the media-query file for responsiveness.
+- Used Javascript for the slideshow in the "Hot Ads" section.
+- Breaking points in the media-query file for responsiveness.
 - Works for mobile and desktop.
 
 ## :woman: Author
