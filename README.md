@@ -1,47 +1,57 @@
 # Online Shop Web Page
-This is an HTML & CSS Capstone Project, which is build based on an online shop. 
-I followed the given design [ZATTIX](https://www.behance.net/gallery/24796463/ZATTIX) but changed the content to a jewelry e-commerce.
-I used Grid for layout and flexbox for responsiveness, also added Bootstrap's carousel and a slide show made with JavaScript for the product images.
-For the responsiveness, I applied media queries to different breakpoints to achieve a smooth transition.
- 
+This is the HTML & CSS Capstone Project and was build based on an online shop.   
+I followed the given design whis is [ZATTIX](https://www.behance.net/gallery/24796463/ZATTIX) but changed the content to a jewelry e-commerce.
  
 
-![Desktop](https://user-images.githubusercontent.com/60085697/78061768-14bbd780-7364-11ea-9753-e0f2ae6ed291.png)
+![Desktop](https://user-images.githubusercontent.com/60085697/82383088-824ec080-9a03-11ea-8d66-76fd3c1a81da.png)
 
-![Mobile](https://user-images.githubusercontent.com/60085697/78061873-3d43d180-7364-11ea-9155-1bc2f4435d95.png)
+![Mobile](https://user-images.githubusercontent.com/60085697/82383454-33edf180-9a04-11ea-9d16-368dae362e81.jpg)
 
-Additional description about the project and its features.
+## :hammer: Built With
 
-## Built With
-
-- HTML,
-- CSS,
+- HTML5,
+- CSS3,
 - Bootstrap 4,
 - JavaScript,
-- Visual Studio Code
+- [Stylelint](https://stylelint.io/),
+- [Stickler](https://stickler-ci.com/),
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/RossielCS/Online-shop-Web-page/master/index.html)
+[Live Demo Link](https://raw.githack.com/RossielCS/Online-shop-Web-page/RossielCS-patch-1/index.html)
 
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 Before you continue, be sure that you have installed:
 * A Git GUI.
-* An Integrated Development Environment.
+* An Integrated Development Environment(IDE).
 * Chrome or Firefox. Internet Explorer is not supported.
 
-## Author
+### :computer: Usage
+To run the project:  
+- Clone the repository with Git.
+- Open it with your IDE.
 
-👤 **Rossiel Carranza**
+## :gem: Features
+
+- Grid for layout.
+- Flexbox to position the elements inside the Grid.
+- Bootstrap's carousel.
+- Used Javascript for the slideshow in "Hot Ads" section.
+- Breaking point in the media-query file for responsiveness.
+- Works for mobile and desktop.
+
+## :woman: Author
+
+**Rossiel Carranza**
 
 * Github: [@RossielCS](https://github.com/RossielCS)
-* Linkedin: [Rossiel Carranza](https://www.linkedin.com/in/rossiel-carranza-1666b11a1/)
+* Linkedin: [Rossiel Carranza](https://www.linkedin.com/in/rossiel-carranza/)
 
 ## 🤝 Contributing
 
