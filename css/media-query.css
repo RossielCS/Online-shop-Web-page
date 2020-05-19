@@ -12,6 +12,10 @@
     flex-wrap: wrap;
   }
 
+  .product-part2 {
+    flex-basis: 30%;
+  }
+
   .business-info-footer {
     max-width: 120px;
   }
@@ -173,6 +177,10 @@
 
   .display-none-hotads {
     display: none;
+  }
+
+  .product-part2 {
+    flex-basis: 40%;
   }
 
   .footer01 > * {
