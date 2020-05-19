@@ -4,6 +4,10 @@
     display: none;
   }
 
+  .part2 {
+    height: auto;
+  }
+
   .row-part2 {
     flex-wrap: wrap;
   }
