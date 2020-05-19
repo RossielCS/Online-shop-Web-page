@@ -25,7 +25,7 @@ main {
 .results-search {
   grid-column: 2 / 3;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
 }
 
 .options-search {
@@ -57,7 +57,7 @@ main {
   margin-bottom: 10px;
   display: block;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13.5px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -149,7 +149,7 @@ main {
 }
 
 .img-showing-box {
-  min-width: 180px;
+  min-width: 200px;
 }
 
 #img-showing01 {
