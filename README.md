@@ -20,7 +20,7 @@ I followed the given design which is [ZATTIX](https://www.behance.net/gallery/24
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/RossielCS/Online-shop-Web-page/RossielCS-patch-1/index.html)
+[Live Demo Link](https://rossielcs-online-shop-web-page.netlify.app/)
 
 
 ## Getting Started
@@ -74,12 +74,6 @@ Feel free to check the [issues page](issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## Credits
 
 Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad).
 
